@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="postgresql-tracing-driver">
+    <dependencies>
+        <layer name="postgresql-driver"/>
+    </dependencies>
+    <feature spec="subsystem.datasources">
+		<feature spec="subsystem.datasources.jdbc-driver">
+            <param name="driver-name" value="postgresql-tracing"/>
+            <param name="jdbc-driver" value="postgresql-tracing"/>
+			<param name="driver-class-name" value="io.opentracing.contrib.jdbc.TracingDriver"/>
+            <param name="driver-xa-datasource-class-name" value="org.postgresql.xa.PGXADataSource"/>
+            <param name="driver-module-name" value="io.opentracing.contrib.opentracing-jdbc"/>
+        </feature>
+    </feature>
+    <packages>
+        <package name="org.postgresql"/>
+		<package name="io.opentracing.contrib.opentracing-jdbc"/>
+    </packages>
+</layer-spec>
+

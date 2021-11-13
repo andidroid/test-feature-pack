@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="kafka-streams">
+	<dependencies>
+		<layer name="open-tracing"/>
+        <layer name="microprofile-reactive-messaging-kafka"/>
+        <layer name="kafka-tracing"/>
+    </dependencies>
+    <packages>
+    	<package name="io.opentracing.contrib.common"/>
+    	<package name="io.opentracing.contrib.opentracing-kafka-client"/>
+		<package name="io.opentracing.contrib.opentracing-kafka-streams"/>
+		
+		<package name="org.apache.kafka.kafka-streams"/>
+		
+		<package name="org.rocksdb.rocksdbjni"/>
+		<package name="org.apache.kafka.connect-api"/>
+		<package name="org.apache.kafka.connect-json"/>
+		
+    </packages>
+</layer-spec>
+

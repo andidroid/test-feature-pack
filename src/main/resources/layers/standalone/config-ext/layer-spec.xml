@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="config-ext">
+	<dependencies>
+        <layer name="config"/>
+    </dependencies>
+    <packages>
+    	<package name="io.smallrye.config.ext"/>
+    </packages>
+</layer-spec>
+
