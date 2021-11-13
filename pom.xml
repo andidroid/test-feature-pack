@@ -96,7 +96,7 @@
 		<hibernate.validator.version>6.0.22.Final</hibernate.validator.version>
 		<resteasy.version>3.15.1.Final</resteasy.version>
 
-		<infinispan.version>12.1.7.Final</infinispan.version>
+		<infinispan.version>13.0.2.Final</infinispan.version>
 
 
 		<javaee.mvc.version>1.1.0</javaee.mvc.version>
