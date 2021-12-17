@@ -18,7 +18,7 @@
 	</parent>
 	<artifactId>test-feature-pack</artifactId>
 	<!-- <version>0.25.1-SNAPSHOT</version> -->
-	<version>0.25.1</version>
+	<version>0.26.0</version>
 	<packaging>pom</packaging>
 	<name>WildFly Featurepack</name>
 
@@ -66,6 +66,10 @@
 			<id>github</id>
 			<url>https://maven.pkg.github.com/andidroid/test</url>
 		</repository>
+		<repository>
+			<id>JBossEA</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/ea/</url>
+		</repository>
 	</repositories>
 
 	<properties>
@@ -84,16 +88,16 @@
 		<slf4j.version>1.7.32</slf4j.version>
 
 		<!-- implementation dependency versions -->
-		<log4j.version>2.13.3</log4j.version>
-		<wildfly.version>25.0.1.Final</wildfly.version>
+		<log4j.version>2.16.0</log4j.version>
+		<wildfly.version>26.0.0.Final</wildfly.version>
 		<postgres.version>42.3.1</postgres.version>
 		<artemis.version>2.19.0</artemis.version>
 		<activemq.artemis.version>2.19.0</activemq.artemis.version>
 
-		<hibernate.version>5.3.23.Final</hibernate.version>
+		<hibernate.version>5.3.24.Final</hibernate.version>
 		<hibernate.search.version>5.10.11.Final</hibernate.search.version>
 		<hibernate.validator.version>6.0.22.Final</hibernate.validator.version>
-		<resteasy.version>3.15.1.Final</resteasy.version>
+		<resteasy.version>4.7.4.Final</resteasy.version>
 
 		<infinispan.version>12.1.7.Final</infinispan.version>
 
@@ -101,9 +105,9 @@
 		<javaee.mvc.version>1.1.0</javaee.mvc.version>
 		<krazo.version>1.1.0</krazo.version>
 
-		<smallrye-config.version>2.5.1</smallrye-config.version>
+		<smallrye-config.version>2.6.1</smallrye-config.version>
 
-		<org.wildfly.galleon.plugin.version>5.2.6.Final</org.wildfly.galleon.plugin.version>
+		<org.wildfly.galleon.plugin.version>5.2.7.Final</org.wildfly.galleon.plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
