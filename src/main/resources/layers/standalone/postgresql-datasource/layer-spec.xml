@@ -18,7 +18,7 @@
         <param name="jta" value="${org.wildfly.datasources.postgresql.jta,env.POSTGRESQL_JTA:true}" />
         <param name="max-pool-size" value="${org.wildfly.datasources.postgresql.max-pool-size,env.POSTGRESQL_MAX_POOL_SIZE:20}" />
         <param name="min-pool-size" value="${org.wildfly.datasources.postgresql.min-pool-size,env.POSTGRESQL_MIN_POOL_SIZE:0}" />
-        <param name="connection-url" value="${org.wildfly.datasources.postgresql.connection-url,env.POSTGRES_CONNECTION,env.POSTGRESQL_URL:jdbc:postgresql://${org.wildfly.datasources.postgresql.host,env.POSTGRESQL_HOST:localhost}:${org.wildfly.datasources.postgresql.port,env.POSTGRESQL_PORT:5432}/${org.wildfly.datasources.postgresql.database,env.POSTGRESQL_DATABASE}}" />
+        <param name="connection-url" value="${org.wildfly.datasources.postgresql.connection-url,env.POSTGRES_CONNECTION,env.POSTGRESQL_URL:jdbc:postgresql://${org.wildfly.datasources.postgresql.host,env.POSTGRESQL_HOST:localhost}:${org.wildfly.datasources.postgresql.port,env.POSTGRESQL_PORT:5432}/${org.wildfly.datasources.postgresql.database,env.POSTGRESQL_DATABASE:test}}" />
         <param name="driver-name" value="${env.POSTGRES_DRIVER:postgresql}" />
         <param name="user-name" value="${org.wildfly.datasources.postgresql.user-name,env.POSTGRES_USER,env.POSTGRESQL_USER:postgres}" />
         <param name="password" value="${org.wildfly.datasources.postgresql.password,env.POSTGRES_PASSWORD,env.POSTGRESQL_PASSWORD:postgres}" />
