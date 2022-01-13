@@ -1,6 +1,12 @@
 name: Java CI Pipeline
 
-on: [push]
+on:
+  push:
+    branches:
+      - 'master'
+      - 'feature/**'
+      - 'release/**'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -175,3 +181,17 @@ jobs:
         with:
           name: site-artifact
           path: target/site/
+
+  lint:
+    name: Linter
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v2
+      - name: Super-Linter
+        uses: github/super-linter@v4.8.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_ALL_CODEBASE: false
