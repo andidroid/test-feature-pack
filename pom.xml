@@ -84,14 +84,14 @@
 
 		<!-- api dependency versions -->
 		<jcache.version>1.1.0</jcache.version>
-		<slf4j.version>1.7.32</slf4j.version>
+		<slf4j.version>1.7.36</slf4j.version>
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.17.1</log4j.version>
 		<wildfly.version>26.0.1.Final</wildfly.version>
-		<postgres.version>42.3.1</postgres.version>
-		<artemis.version>2.19.0</artemis.version>
-		<activemq.artemis.version>2.19.0</activemq.artemis.version>
+		<postgres.version>42.3.2</postgres.version>
+		<artemis.version>2.19.1</artemis.version>
+		<activemq.artemis.version>2.19.1</activemq.artemis.version>
 
 		<hibernate.version>5.3.24.Final</hibernate.version>
 		<hibernate.search.version>5.10.11.Final</hibernate.search.version>
@@ -108,7 +108,7 @@
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 
 
-		<org.wildfly.galleon.plugin.version>5.2.7.Final</org.wildfly.galleon.plugin.version>
+		<wildfly-galleon-plugin.version>5.2.8.Final</wildfly-galleon-plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -240,7 +240,7 @@
 			<plugin>
 				<groupId>org.wildfly.galleon-plugins</groupId>
 				<artifactId>wildfly-galleon-maven-plugin</artifactId>
-				<version>${org.wildfly.galleon.plugin.version}</version>
+				<version>${wildfly-galleon-plugin.version}</version>
 				<executions>
 					<execution>
 						<id>wildfly-galleon-pack-build</id>
