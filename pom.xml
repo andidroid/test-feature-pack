@@ -14,10 +14,10 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test</artifactId>
-		<version>0.0.31</version>
+		<version>0.0.32</version>
 	</parent>
 	<artifactId>test-feature-pack</artifactId>
-	<version>0.26.2-SNAPSHOT</version>
+	<version>0.26.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>WildFly Featurepack</name>
 
@@ -73,7 +73,7 @@
 
 	<properties>
 		<enforcer.skip>true</enforcer.skip>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<javaee.version>8.0.0</javaee.version>
 		<microprofile.version>4.1</microprofile.version>
 
