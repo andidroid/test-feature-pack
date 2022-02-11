@@ -58,7 +58,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: v-${{ env.VERSION }}
+          tag_name: v${{ env.VERSION }}
           release_name: Release ${{ env.VERSION }}
           body: |
             Versionn ${{ env.VERSION }}
@@ -72,6 +72,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: /home/runner/work/test-feature-pack/test-feature-pack/target/checkout/pom.xml
-          asset_name: pom.xml
-          asset_content_type: application/xml
+          asset_path: /home/runner/work/test-feature-pack/test-feature-pack/target/checkout/target/test-feature-pack-${{ env.VERSION }}.zip
+          asset_name: test-feature-pack.zip
+          asset_content_type: application/zip
