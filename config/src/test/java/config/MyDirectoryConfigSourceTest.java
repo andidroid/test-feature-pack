@@ -1,26 +1,27 @@
 package config;
 
-import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
-//import static org.junit.jupiter.api.Assertions.*;
-//
-//import org.junit.jupiter.api.Test;
-
-public class MyDirectoryConfigSourceTest {
-
+public class MyDirectoryConfigSourceTest
+{
+	
 	@Test
-	public void testFileList() {
+	public void testFileList()
+	{
 		
 		System.setProperty("external.config.dir", "D:\\Programmierung\\MyGISfx\\webgisserver\\config");
 		
 		MyDirectoryConfigSource cs = new MyDirectoryConfigSource();
 	}
-
+	
 	@Test
-	public void testGetPropertyNames() {
+	@Disabled(value = "Not yet implemented")
+	public void testGetPropertyNames()
+	{
 		fail("Not yet implemented");
 	}
-
+	
 }
