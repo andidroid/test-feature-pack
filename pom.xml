@@ -93,7 +93,7 @@
 		<artemis.version>2.19.1</artemis.version>
 		<activemq.artemis.version>2.19.1</activemq.artemis.version>
 
-		<hibernate.version>5.3.24.Final</hibernate.version>
+		<hibernate.version>5.6.6.Final</hibernate.version>
 		<hibernate.search.version>5.10.11.Final</hibernate.search.version>
 		<hibernate.validator.version>6.0.22.Final</hibernate.validator.version>
 		<resteasy.version>4.7.4.Final</resteasy.version>
