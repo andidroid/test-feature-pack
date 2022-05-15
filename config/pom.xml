@@ -4,7 +4,7 @@
   <parent>
     <groupId>me.andidroid</groupId>
     <artifactId>test-feature-pack</artifactId>
-    <version>0.26.5-SNAPSHOT</version>
+    <version>0.27.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>config</artifactId>
