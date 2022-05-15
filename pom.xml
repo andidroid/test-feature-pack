@@ -74,7 +74,7 @@
 	<properties>
 		<enforcer.skip>true</enforcer.skip>
 		<java.version>17</java.version>
-		<javaee.version>8.0.0</javaee.version>
+		<javaee.version>9.1.0</javaee.version>
 		<microprofile.version>5.0</microprofile.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
