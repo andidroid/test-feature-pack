@@ -89,9 +89,9 @@
 		<!-- implementation dependency versions -->
 		<log4j.version>2.17.1</log4j.version>
 		<wildfly.version>27.0.0.Alpha1</wildfly.version>
-		<postgres.version>42.3.2</postgres.version>
+		<postgres.version>42.3.5</postgres.version>
 		<artemis.version>2.22.0</artemis.version>
-		<activemq.artemis.version>2.19.1</activemq.artemis.version>
+		<activemq.artemis.version>2.22.0</activemq.artemis.version>
 
 		<hibernate.version>6.0.1.Final</hibernate.version>
 		<hibernate.search.version>6.1.5.Final</hibernate.search.version>
