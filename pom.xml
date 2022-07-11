@@ -88,7 +88,7 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.17.1</log4j.version>
-		<wildfly.version>27.0.0.Alpha1</wildfly.version>
+		<wildfly.version>27.0.0.Alpha2</wildfly.version>
 		<postgres.version>42.4.0</postgres.version>
 		<artemis.version>2.22.0</artemis.version>
 		<activemq.artemis.version>2.22.0</activemq.artemis.version>
