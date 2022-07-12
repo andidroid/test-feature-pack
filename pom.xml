@@ -90,24 +90,24 @@
 		<log4j.version>2.17.1</log4j.version>
 		<wildfly.version>27.0.0.Alpha2</wildfly.version>
 		<postgres.version>42.4.0</postgres.version>
-		<artemis.version>2.22.0</artemis.version>
-		<activemq.artemis.version>2.22.0</activemq.artemis.version>
+		<artemis.version>2.23.1</artemis.version>
+		<activemq.artemis.version>2.23.1</activemq.artemis.version>
 
-		<hibernate.version>6.0.1.Final</hibernate.version>
+		<hibernate.version>6.0.2.Final</hibernate.version>
 		<hibernate.search.version>6.1.5.Final</hibernate.search.version>
-		<hibernate.validator.version>8.0.0.Alpha3</hibernate.validator.version>
-		<resteasy.version>6.0.1.Final</resteasy.version>
+		<hibernate.validator.version>8.0.0.CR1</hibernate.validator.version>
+		<resteasy.version>6.1.0.Beta2</resteasy.version>
 		<infinispan.version>13.0.10.Final</infinispan.version>
 		<kafka.version>3.1.0</kafka.version>
 
-		<javaee.mvc.version>1.1.0</javaee.mvc.version>
-		<krazo.version>1.1.0</krazo.version>
+		<javaee.mvc.version>2.1.0.M1</javaee.mvc.version>
+		<krazo.version>2.0.2</krazo.version>
 
 		<smallrye-config.version>3.0.0-RC2</smallrye-config.version>
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 
 
-		<wildfly-galleon-plugin.version>5.2.11.Final</wildfly-galleon-plugin.version>
+		<wildfly-galleon-plugin.version>6.0.0.Alpha6</wildfly-galleon-plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
