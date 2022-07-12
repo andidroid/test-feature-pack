@@ -23,7 +23,7 @@
 <!-- Represents Hibernate 5.1.x, will later become 5.3.x for WF 14  -->
 <module name="org.hibernate.spatial" xmlns="urn:jboss:module:1.8">
     <resources>
-        <artifact name="${org.hibernate:hibernate-spatial}" />
+        <artifact name="${org.hibernate.orm:hibernate-spatial}" />
         <artifact name="${org.geolatte:geolatte-geom}" />
     </resources>
 
@@ -44,12 +44,12 @@
         <module name="org.jboss.jandex"/>
         <module name="org.jboss.logging"/>
         <module name="org.hibernate.commons-annotations"/>
-        <module name="org.hibernate.jipijapa-hibernate5-3" services="import"/>
+        <!-- <module name="org.hibernate.jipijapa-hibernate6" services="import"/> -->
         <module name="org.infinispan.hibernate-cache" services="import" optional="true"/>
         <module name="net.bytebuddy"/>
         <module name="org.hibernate"/>
         <module name="org.postgresql"/>
         <module name="org.slf4j"/>
-    	<module name="com.vividsolutions.jts"/>
+    	<module name="org.locationtech.jts"/>
     </dependencies>
 </module>

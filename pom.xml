@@ -127,7 +127,7 @@
 			<version>${jcache.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.hibernate</groupId>
+			<groupId>org.hibernate.orm</groupId>
 			<artifactId>hibernate-spatial</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
@@ -169,9 +169,14 @@
 			<version>${opentracing-jms.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.bedatadriven</groupId>
+			<groupId>org.locationtech.jts</groupId>
+			<artifactId>jts-core</artifactId>
+			<version>1.19.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.graphhopper.external</groupId>
 			<artifactId>jackson-datatype-jts</artifactId>
-			<version>2.4</version>
+			<version>1.0-2.7</version>
 		</dependency>
 
 

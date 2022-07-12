@@ -20,5 +20,5 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
-<!-- Represents the Hibernate 5.3.x module-->
-<module-alias name="org.hibernate.spatial" slot="5.3" target-name="org.hibernate.spatial" xmlns="urn:jboss:module:1.5"/>
+<!-- Represents the Hibernate 6.0.x module-->
+<module-alias name="org.hibernate.spatial" slot="6.0" target-name="org.hibernate.spatial" xmlns="urn:jboss:module:1.5"/>

@@ -2,7 +2,7 @@
 <layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="spatial">
     <packages>
         <package name="org.postgresql"/>
-        <package name="com.vividsolutions.jts"/>
+        <package name="org.locationtech.jts"/>
 		<package name="org.hibernate.spatial"/>
 		<package name="com.fasterxml.jackson.datatype.jackson-datatype-jts"/>
 		<package name="javax.cache.api"/>

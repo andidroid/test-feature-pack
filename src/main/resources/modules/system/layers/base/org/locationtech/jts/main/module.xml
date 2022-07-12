@@ -21,13 +21,13 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 <!-- Represents Hibernate 5.1.x, will later become 5.3.x for WF 14  -->
-<module name="com.vividsolutions.jts" xmlns="urn:jboss:module:1.8">
+<module name="org.locationtech.jts" xmlns="urn:jboss:module:1.8">
     <resources>
-        <artifact name="${com.vividsolutions:jts-core}" />
+        <artifact name="${org.locationtech.jts:jts-core}" />
     </resources>
 
     <dependencies>
-		<module name="javax.api"/>
+        <module name="javax.api"/>
         <module name="org.jboss.logging"/>
         <module name="org.slf4j"/>
     </dependencies>
