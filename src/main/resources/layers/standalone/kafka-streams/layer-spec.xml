@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="kafka-streams">
 	<dependencies>
-		<layer name="open-tracing"/>
+		<layer name="microprofile-opentracing"/>
         <layer name="microprofile-reactive-messaging-kafka"/>
         <layer name="kafka-tracing"/>
     </dependencies>

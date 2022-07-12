@@ -5,7 +5,7 @@
         <layer name="messaging-activemq"/>
         <layer name="remote-activemq"/>
      -->
-    <layer name="open-tracing" />
+    <layer name="microprofile-opentracing" />
   </dependencies>
   <packages>
     <package name="io.opentracing.contrib.common" />
