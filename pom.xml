@@ -107,12 +107,15 @@
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 
 
-		<wildfly-galleon-plugin.version>6.0.0.Alpha6</wildfly-galleon-plugin.version>
+		<wildfly-galleon-plugin.version>6.0.0.Alpha7</wildfly-galleon-plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.wildfly</groupId>
+			<!--
 			<artifactId>wildfly-galleon-pack</artifactId>
+			-->
+			<artifactId>wildfly-preview-feature-pack</artifactId>
 			<version>${wildfly.version}</version>
 			<type>zip</type>
 		</dependency>
