@@ -1,0 +1,10 @@
+<build xmlns="urn:wildfly:feature-pack-build:3.1" producer="me.andidroid:wildfly-datasources-preview-galleon-pack">
+
+    <dependencies>
+        <dependency group-id="org.wildfly" artifact-id="test-feature-pack">
+            <name>org.wildfly:wildfly-preview-feature-pack</name>
+            <packages inherit="true"/>
+            <default-configs inherit="false"/>
+        </dependency>
+    </dependencies>
+</build>
