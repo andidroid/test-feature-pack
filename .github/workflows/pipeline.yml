@@ -91,7 +91,7 @@ jobs:
           key: ${{ runner.os }}-m2-${{ env.cache-name }}-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Publish package
-        run: mvn -B deploy -DskipTests=true -s settings.xml
+        run: mvn -B deploy -DskipTests=true -s settings.xml -e
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
