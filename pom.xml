@@ -103,7 +103,7 @@
 		<javaee.mvc.version>2.1.0.RC1</javaee.mvc.version>
 		<krazo.version>3.0.0.RC1</krazo.version>
 
-		<smallrye-config.version>3.0.0-RC3</smallrye-config.version>
+		<smallrye-config.version>3.0.0-RC4</smallrye-config.version>
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 
 
