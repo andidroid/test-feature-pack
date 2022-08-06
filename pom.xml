@@ -236,6 +236,15 @@
 	</dependencies>
 
 	<build>
+		<pluginManagement>
+      			<plugins>
+				<plugin>
+					<groupId>org.jboss.galleon</groupId>
+					<artifactId>galleon-maven-plugin</artifactId>
+					<version>${galleon.version}</version>
+				</plugin>
+      			</plugins>
+		<pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -243,11 +252,6 @@
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.jboss.galleon</groupId>
-				<artifactId>galleon-maven-plugin</artifactId>
-				<version>${galleon.version}</version>
 			</plugin>
 			<plugin>
 				<groupId>org.wildfly.galleon-plugins</groupId>
