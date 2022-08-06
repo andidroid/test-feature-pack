@@ -106,7 +106,7 @@
 		<smallrye-config.version>3.0.0-RC4</smallrye-config.version>
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 
-
+		<galleon.version>5.0.5.Final</galleon.version>
 		<wildfly-galleon-plugin.version>6.0.0.Alpha7</wildfly-galleon-plugin.version>
 	</properties>
 	<dependencies>
@@ -243,6 +243,11 @@
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.jboss.galleon</groupId>
+				<artifactId>galleon-maven-plugin</artifactId>
+				<version>${galleon.version}</version>
 			</plugin>
 			<plugin>
 				<groupId>org.wildfly.galleon-plugins</groupId>
