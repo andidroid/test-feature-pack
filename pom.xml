@@ -244,7 +244,7 @@
 					<version>${galleon.version}</version>
 				</plugin>
       			</plugins>
-		<pluginManagement>
+		</pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
