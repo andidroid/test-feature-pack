@@ -107,7 +107,7 @@
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 
 		<galleon.version>5.0.5.Final</galleon.version>
-		<wildfly-galleon-plugin.version>6.0.0.Alpha7</wildfly-galleon-plugin.version>
+		<wildfly-galleon-plugin.version>6.0.0.Beta1</wildfly-galleon-plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
