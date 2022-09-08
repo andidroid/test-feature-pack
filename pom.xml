@@ -100,8 +100,8 @@
 		<infinispan.version>13.0.10.Final</infinispan.version>
 		<kafka.version>3.1.0</kafka.version>
 
-		<javaee.mvc.version>2.1.0.RC1</javaee.mvc.version>
-		<krazo.version>3.0.0.RC1</krazo.version>
+		<javaee.mvc.version>2.1.0</javaee.mvc.version>
+		<krazo.version>3.0.0</krazo.version>
 
 		<smallrye-config.version>3.0.0</smallrye-config.version>
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
