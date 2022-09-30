@@ -93,7 +93,7 @@
 		<artemis.version>2.23.1</artemis.version>
 		<activemq.artemis.version>2.23.1</activemq.artemis.version>
 
-		<hibernate.version>6.0.2.Final</hibernate.version>
+		<hibernate.version>6.1.3.Final</hibernate.version>
 		<hibernate.search.version>6.1.5.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.0.CR1</hibernate.validator.version>
 		<resteasy.version>6.1.0.Beta2</resteasy.version>
