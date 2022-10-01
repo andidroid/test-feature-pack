@@ -20,16 +20,15 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
-<module name="com.fasterxml.jackson.datatype.jackson-datatype-jts" xmlns="urn:jboss:module:1.8">
+<module name="com.fasterxml.jackson.datatype.jackson-datatype-jts" xmlns="urn:jboss:module:1.9">
      <resources>
         <artifact name="${com.graphhopper.external:jackson-datatype-jts}"/>
     </resources>
 
     <dependencies>
-        <module name="javax.api"/>
-        <module name="com.fasterxml.jackson.core.jackson-core"/>
+        <!-- <module name="com.fasterxml.jackson.core.jackson-core"/>
         <module name="com.fasterxml.jackson.core.jackson-databind"/>
-        <module name="com.fasterxml.jackson.core.jackson-annotations"/>
+        <module name="com.fasterxml.jackson.core.jackson-annotations"/> -->
         <module name="org.locationtech.jts"/>
     </dependencies>
 </module>

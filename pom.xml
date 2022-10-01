@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test</artifactId>
-		<version>0.0.36</version>
+		<version>0.0.37</version>
 	</parent>
 	<artifactId>test-feature-pack</artifactId>
 	<version>0.27.3-SNAPSHOT</version>
@@ -109,13 +109,34 @@
 		<galleon.version>5.0.5.Final</galleon.version>
 		<wildfly-galleon-plugin.version>6.2.0.Final</wildfly-galleon-plugin.version>
 	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.wildfly</groupId>
+				<artifactId>wildfly-galleon-pack</artifactId>
+				<!--
+				<artifactId>wildfly-preview-feature-pack</artifactId>
+				-->
+				<version>${wildfly.version}</version>
+				<type>zip</type>
+			</dependency>
+			<dependency>
+				<groupId>org.wildfly</groupId>
+				<artifactId>wildfly-ee-galleon-pack</artifactId>
+				<version>${wildfly.version}</version>
+				<type>zip</type>
+			</dependency>
+			<dependency>
+				<groupId>org.postgresql</groupId>
+				<artifactId>postgresql</artifactId>
+				<version>${postgres.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.wildfly</groupId>
-			<artifactId>wildfly-galleon-pack</artifactId>
-			<!--
-			<artifactId>wildfly-preview-feature-pack</artifactId>
-			-->
+<artifactId>wildfly-preview-feature-pack</artifactId>
 			<version>${wildfly.version}</version>
 			<type>zip</type>
 		</dependency>
@@ -237,13 +258,13 @@
 
 	<build>
 		<pluginManagement>
-      			<plugins>
+			<plugins>
 				<plugin>
 					<groupId>org.jboss.galleon</groupId>
 					<artifactId>galleon-maven-plugin</artifactId>
 					<version>${galleon.version}</version>
 				</plugin>
-      			</plugins>
+			</plugins>
 		</pluginManagement>
 		<plugins>
 			<plugin>
@@ -264,9 +285,9 @@
 							<goal>build-user-feature-pack</goal>
 						</goals>
 						<phase>compile</phase>
-						<configuration>
+						<!-- <configuration>
 							<translate-to-fpl>true</translate-to-fpl>
-						</configuration>
+						</configuration> -->
 					</execution>
 				</executions>
 			</plugin>

@@ -22,13 +22,7 @@
 
     <dependencies>
 		<module name="java.logging"/>
-		<module name="org.slf4j"/>
 		<module name="org.apache.kafka.connect-api"/>
-		
-		<module name="com.fasterxml.jackson.core.jackson-annotations"/>
-        <module name="com.fasterxml.jackson.core.jackson-core"/>
-		<module name="com.fasterxml.jackson.core.jackson-databind"/>
-		<module name="com.fasterxml.jackson.datatype.jackson-datatype-jdk8"/>
 		
     </dependencies>
 </module>
