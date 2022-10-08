@@ -2,13 +2,14 @@
 <layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="kafka-streams">
 	<dependencies>
 		<layer name="microprofile-opentracing"/>
+		<layer name="opentelemetry"/>
         <layer name="microprofile-reactive-messaging-kafka"/>
         <layer name="kafka-tracing"/>
     </dependencies>
     <packages>
-    	<package name="io.opentracing.contrib.common"/>
+    	<!-- <package name="io.opentracing.contrib.common"/>
     	<package name="io.opentracing.contrib.opentracing-kafka-client"/>
-		<package name="io.opentracing.contrib.opentracing-kafka-streams"/>
+		<package name="io.opentracing.contrib.opentracing-kafka-streams"/> -->
 		
 		<package name="org.apache.kafka.kafka-streams"/>
 		

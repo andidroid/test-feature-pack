@@ -14,27 +14,18 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<module name="io.opentracing.contrib.opentracing-jdbc" xmlns="urn:jboss:module:1.9">
+<module name="io.opentelemetry.instrumentation.opentelemetry-instrumentation-api" xmlns="urn:jboss:module:1.9">
     <properties>
         <property name="jboss.api" value="private"/>
     </properties>
 
     <resources>
-        <artifact name="${io.opentracing.contrib:opentracing-jdbc}"/>
+        <artifact name="${io.opentelemetry.instrumentation:opentelemetry-instrumentation-api}"/>
     </resources>
 
     <dependencies>
-	    <module name="org.postgresql"/>
-	    <module name="javax.api"/>
-        <module name="javax.transaction.api"/>
-        <module name="javax.servlet.api" optional="true"/>
         <module name="java.logging"/>
-        <module name="io.opentracing.opentracing-api"/>
-        <module name="io.opentracing.opentracing-util"/>
-		<module name="io.opentracing.contrib.common"/>
-		<module name="io.opentracing.contrib.opentracing-tracerresolver"/>
-		<module name="io.jaegertracing.jaeger"/>
-		<module name="io.smallrye.opentracing"/>
-		<module name="io.smallrye.opentracing-contrib"/>
+        <module name="org.slf4j"/>
+        <module name="io.opentelemetry.api"/>
     </dependencies>
 </module>

@@ -86,10 +86,20 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.wildfly</groupId>
 <artifactId>wildfly-preview-feature-pack</artifactId>
 			<version>${wildfly.version}</version>
+			<type>zip</type>
+		</dependency> -->
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-galleon-pack</artifactId>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-ee-galleon-pack</artifactId>
 			<type>zip</type>
 		</dependency>
 		<dependency>
@@ -117,6 +127,16 @@
 			<artifactId>infinispan-jcache-remote</artifactId>
 			<version>${infinispan.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>io.opentelemetry.instrumentation</groupId>
+			<artifactId>opentelemetry-instrumentation-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.opentelemetry.instrumentation</groupId>
+			<artifactId>opentelemetry-jdbc</artifactId>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-util -->
 		<dependency>
 			<groupId>io.opentracing</groupId>

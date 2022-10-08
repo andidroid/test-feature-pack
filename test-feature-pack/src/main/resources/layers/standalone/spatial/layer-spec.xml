@@ -5,7 +5,7 @@
         <package name="org.locationtech.jts"/>
 		<package name="org.hibernate.spatial"/>
 		<package name="com.fasterxml.jackson.datatype.jackson-datatype-jts"/>
-		<package name="javax.cache.api"/>
+		<!-- <package name="javax.cache.api"/> -->
     </packages>
 </layer-spec>
 
