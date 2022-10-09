@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="lucene-spatial">
+    <packages>
+        <package name="org.locationtech.jts"/>
+        <package name="org.locationtech.spatial4j"/>
+		<package name="org.apachae.lucene.lucene-spatial"/>
+    </packages>
+</layer-spec>
+

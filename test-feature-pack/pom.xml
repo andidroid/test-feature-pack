@@ -170,6 +170,26 @@
 			<version>1.19.0</version>
 		</dependency>
 		<dependency>
+			<groupId>org.locationtech.spatial4j</groupId>
+			<artifactId>spatial4j</artifactId>
+			<version>0.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-spatial3d</artifactId>
+			<version>8.11.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-spatial-extras</artifactId>
+			<version>8.11.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.sgr</groupId>
+			<artifactId>s2-geometry-library-java</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
 			<groupId>com.graphhopper.external</groupId>
 			<artifactId>jackson-datatype-jts</artifactId>
 			<version>1.0-2.7</version>
