@@ -3,7 +3,7 @@
     <packages>
         <package name="org.locationtech.jts"/>
         <package name="org.locationtech.spatial4j"/>
-		<package name="org.apachae.lucene.lucene-spatial"/>
+		<package name="org.apache.lucene.lucene-spatial"/>
     </packages>
 </layer-spec>
 
