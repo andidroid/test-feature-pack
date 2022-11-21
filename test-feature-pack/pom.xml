@@ -47,8 +47,8 @@
 
 		<hibernate.version>6.1.5.Final</hibernate.version>
 		<hibernate.search.version>6.1.7.Final</hibernate.search.version>
-		<hibernate.validator.version>8.0.0.CR1</hibernate.validator.version>
-		<resteasy.version>6.2.0.Final</resteasy.version>
+		<hibernate.validator.version>8.0.0.Final</hibernate.validator.version>
+		<resteasy.version>6.2.1.Final</resteasy.version>
 		<infinispan.version>14.0.2.Final</infinispan.version>
 		<kafka.version>3.2.2</kafka.version>
 
@@ -246,6 +246,12 @@
 			<version>${smallrye-config.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>me.andidroid</groupId>
+			<artifactId>config</artifactId>
+			<version>${project.version}</version>
+			<!-- <version>0.27.4-SNAPSHOT</version> -->
+		</dependency>
 	</dependencies>
 
 	<build>

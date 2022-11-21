@@ -23,7 +23,7 @@
 <module name="io.smallrye.config.ext" xmlns="urn:jboss:module:1.9">
 
     <resources>
-    	<artifact name="${org.mygisfx.wildfly:config}"/>
+    	<artifact name="${me.andidroid:config}"/>
         <artifact name="${io.smallrye.config:smallrye-config-events}"/>
     </resources>
 
