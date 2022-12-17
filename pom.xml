@@ -88,7 +88,7 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.17.1</log4j.version>
-		<wildfly.version>27.0.0.Final</wildfly.version>
+		<wildfly.version>27.0.1.Final</wildfly.version>
 		<postgres.version>42.5.0</postgres.version>
 		<artemis.version>2.26.0</artemis.version>
 		<activemq.artemis.version>2.26.0</activemq.artemis.version>
@@ -107,8 +107,8 @@
 		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 		<opentelemetry.version>1.12.0-alpha</opentelemetry.version>
 
-		<galleon.version>5.0.5.Final</galleon.version>
-		<wildfly-galleon-plugin.version>6.2.0.Final</wildfly-galleon-plugin.version>
+		<galleon.version>5.0.7.Final</galleon.version>
+		<wildfly-galleon-plugin.version>6.2.2.Final</wildfly-galleon-plugin.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
