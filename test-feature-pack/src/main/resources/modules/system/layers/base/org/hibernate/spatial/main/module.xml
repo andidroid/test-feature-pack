@@ -38,7 +38,7 @@
         <module name="javax.xml.bind.api"/>
         <module name="com.sun.xml.bind"/>
         <module name="org.antlr"/>
-        <module name="org.dom4j"/>
+        <!-- <module name="org.dom4j"/> -->
         <module name="org.jboss.as.jpa.spi"/>
         <module name="org.jboss.jandex"/>
         <module name="org.jboss.logging"/>
