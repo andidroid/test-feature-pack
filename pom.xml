@@ -98,7 +98,7 @@
 		<hibernate.validator.version>8.0.0.CR1</hibernate.validator.version>
 		<resteasy.version>6.2.1.Final</resteasy.version>
 		<infinispan.version>14.0.2.Final</infinispan.version>
-		<kafka.version>3.3.1</kafka.version>
+		<kafka.version>3.4.0</kafka.version>
 
 		<javaee.mvc.version>2.1.0</javaee.mvc.version>
 		<krazo.version>3.0.0</krazo.version>
