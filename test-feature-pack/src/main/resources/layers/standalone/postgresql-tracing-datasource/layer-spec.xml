@@ -3,6 +3,8 @@
     <dependencies>
         <layer name="postgresql-tracing-driver" />
         <layer name="postgresql-default-datasource" />
+		<layer name="microprofile-telemetry"/>
+		<layer name="opentelemetry"/>
     </dependencies>
 
     <feature spec="subsystem.datasources.data-source">

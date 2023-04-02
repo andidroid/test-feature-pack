@@ -24,7 +24,7 @@
 
     <resources>
     	<artifact name="${me.andidroid:config}"/>
-        <artifact name="${io.smallrye.config:smallrye-config-events}"/>
+      <artifact name="${io.smallrye.config:smallrye-config-events}"/>
     </resources>
 
     <dependencies>
@@ -38,6 +38,6 @@
         <module name="io.smallrye.common.expression"/>
         <module name="io.smallrye.common.function"/>
 		<module name="io.smallrye.config"/>
-		<module name="org.dom4j"/>
+		<!-- <module name="org.dom4j"/> -->
     </dependencies>
 </module>

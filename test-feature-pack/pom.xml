@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test-feature-pack-parent</artifactId>
-		<version>0.27.4-SNAPSHOT</version>
+		<version>0.28.0-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>test-feature-pack</artifactId>
@@ -22,69 +22,6 @@
 	<name>Test WildFly Featurepack</name>
 
 	<description>Test WildFly Featurepack</description>
-
-	<properties>
-		<enforcer.skip>true</enforcer.skip>
-		<java.version>17</java.version>
-		<javaee.version>10.0.0</javaee.version>
-		<microprofile.version>5.0</microprofile.version>
-
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
-
-		<!-- api dependency versions -->
-		<jcache.version>1.1.1</jcache.version>
-		<slf4j.version>1.7.36</slf4j.version>
-
-		<!-- implementation dependency versions -->
-		<log4j.version>2.17.1</log4j.version>
-		<wildfly.version>27.0.1.Final</wildfly.version>
-		<postgres.version>42.5.0</postgres.version>
-		<artemis.version>2.25.0</artemis.version>
-		<activemq.artemis.version>2.25.0</activemq.artemis.version>
-
-		<hibernate.version>6.1.7.Final</hibernate.version>
-		<hibernate.search.version>6.1.7.Final</hibernate.search.version>
-		<hibernate.validator.version>8.0.0.Final</hibernate.validator.version>
-		<resteasy.version>6.2.1.Final</resteasy.version>
-		<infinispan.version>14.0.7.Final</infinispan.version>
-		<kafka.version>3.4.0</kafka.version>
-
-		<javaee.mvc.version>2.1.0</javaee.mvc.version>
-		<krazo.version>3.0.0</krazo.version>
-
-		<smallrye-config.version>3.0.0</smallrye-config.version>
-		<opentracing-jms.version>0.1.11</opentracing-jms.version>
-
-		<galleon.version>5.0.5.Final</galleon.version>
-		<wildfly-galleon-plugin.version>6.3.2.Final</wildfly-galleon-plugin.version>
-	</properties>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.wildfly</groupId>
-				<artifactId>wildfly-galleon-pack</artifactId>
-				<!--
-				<artifactId>wildfly-preview-feature-pack</artifactId>
-				-->
-				<version>${wildfly.version}</version>
-				<type>zip</type>
-			</dependency>
-			<dependency>
-				<groupId>org.wildfly</groupId>
-				<artifactId>wildfly-ee-galleon-pack</artifactId>
-				<version>${wildfly.version}</version>
-				<type>zip</type>
-			</dependency>
-			<dependency>
-				<groupId>org.postgresql</groupId>
-				<artifactId>postgresql</artifactId>
-				<version>${postgres.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 	<dependencies>
 		<!-- <dependency>
 			<groupId>org.wildfly</groupId>
@@ -103,71 +40,60 @@
 			<type>zip</type>
 		</dependency>
 		<dependency>
+			<groupId>org.wildfly.extras.reactive</groupId>
+			<artifactId>wildfly-microprofile-reactive-feature-pack</artifactId>
+			<type>zip</type>
+		</dependency>
+		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>${postgres.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.cache</groupId>
 			<artifactId>cache-api</artifactId>
-			<version>${jcache.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate.orm</groupId>
 			<artifactId>hibernate-spatial</artifactId>
-			<version>${hibernate.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.infinispan</groupId>
 			<artifactId>infinispan-jcache</artifactId>
-			<version>${infinispan.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.infinispan</groupId>
 			<artifactId>infinispan-jcache-remote</artifactId>
-			<version>${infinispan.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>io.opentelemetry.instrumentation</groupId>
-			<artifactId>opentelemetry-instrumentation-api</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>io.opentelemetry.instrumentation</groupId>
 			<artifactId>opentelemetry-jdbc</artifactId>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-util -->
-		<dependency>
-			<groupId>io.opentracing</groupId>
-			<artifactId>opentracing-util</artifactId>
-			<version>0.33.0</version>
-		</dependency>
 
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>common</artifactId>
-			<version>0.1.4</version>
-		</dependency>
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-jdbc</artifactId>
-			<version>0.2.15</version>
-		</dependency>
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-jms-2</artifactId>
-			<version>${opentracing-jms.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-jms-common</artifactId>
-			<version>${opentracing-jms.version}</version>
-		</dependency>
+<dependency>
+    <groupId>io.opentelemetry.instrumentation</groupId>
+    <artifactId>opentelemetry-kafka-clients-common</artifactId>
+</dependency>
+<dependency>
+    <groupId>io.opentelemetry.instrumentation</groupId>
+    <artifactId>opentelemetry-kafka-clients-2.6</artifactId>
+</dependency>
+
+
+<dependency>
+    <groupId>io.opentelemetry.javaagent.instrumentation</groupId>
+    <artifactId>opentelemetry-javaagent-jms-3.0</artifactId>
+</dependency>
+<dependency>
+	<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
+    <artifactId>opentelemetry-javaagent-jms-common</artifactId>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-util -->
+		
 		<dependency>
 			<groupId>org.locationtech.jts</groupId>
 			<artifactId>jts-core</artifactId>
-			<version>1.19.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.locationtech.spatial4j</groupId>
@@ -199,51 +125,34 @@
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka-streams</artifactId>
-			<version>${kafka.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>connect-api</artifactId>
-			<version>${kafka.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.kafka/connect-json -->
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>connect-json</artifactId>
-			<version>${kafka.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.rocksdb</groupId>
 			<artifactId>rocksdbjni</artifactId>
-			<version>6.29.4.1</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.opentracing.contrib/opentracing-kafka-client -->
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-kafka-client</artifactId>
-			<version>0.1.15</version>
-		</dependency>
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-kafka-streams</artifactId>
-			<version>0.1.15</version>
-		</dependency>
-
+		
 		<!-- <dependency> <groupId>${project.groupId}</groupId> <artifactId>config</artifactId> 
 			<version>${project.version}</version> </dependency> -->
 
 		<dependency>
 			<groupId>io.smallrye.config</groupId>
 			<artifactId>smallrye-config-core</artifactId>
-			<version>${smallrye-config.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.smallrye.config/smallrye-config-events -->
 		<dependency>
 			<groupId>io.smallrye.config</groupId>
 			<artifactId>smallrye-config-events</artifactId>
-			<version>${smallrye-config.version}</version>
 		</dependency>
 
 		<dependency>
@@ -277,6 +186,20 @@
 				<artifactId>wildfly-galleon-maven-plugin</artifactId>
 				<version>${wildfly-galleon-plugin.version}</version>
 				<executions>
+					<!-- <execution>
+						<id>wildfly-galleon-pack-list</id>
+						<goals>
+							<goal>generate-all-artifacts-list</goal>
+						</goals>
+						<phase>compile</phase>
+						<configuration>
+							<fpArtifactId>test-feature-pack</fpArtifactId>
+							<fpGroupId>me.andidroid</fpGroupId>
+							<fpVersion>0.28.0</fpVersion>
+							
+							<offline>false</offline>
+						</configuration>
+					</execution> -->
 					<execution>
 						<id>wildfly-galleon-pack-build</id>
 						<goals>
@@ -286,7 +209,12 @@
 						<!-- <configuration>
 							<translate-to-fpl>true</translate-to-fpl>
 						</configuration> -->
+						<configuration>
+							<offline>false</offline>
+						</configuration>
+						
 					</execution>
+
 				</executions>
 			</plugin>
 		</plugins>
