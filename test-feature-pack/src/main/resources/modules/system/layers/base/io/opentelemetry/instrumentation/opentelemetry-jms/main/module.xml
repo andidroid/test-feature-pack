@@ -14,13 +14,14 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<module name="io.opentelemetry.instrumentation.opentelemetry-jdbc" xmlns="urn:jboss:module:1.9">
+<module name="io.opentelemetry.instrumentation.opentelemetry-jms" xmlns="urn:jboss:module:1.9">
     <properties>
         <property name="jboss.api" value="private"/>
     </properties>
 
     <resources>
-        <artifact name="${io.opentelemetry.instrumentation:opentelemetry-jdbc}"/>
+        <artifact name="${io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-jms-common}"/>
+        <artifact name="${io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-jms-3.0}"/>
     </resources>
 
     <dependencies>
@@ -31,7 +32,6 @@
         <module name="java.logging"/>
         <module name="jakarta.interceptor.api"/>
         <module name="io.opentelemetry.api"/>
-        <module name="org.postgresql"/>
         <module name="wildflyee.api"/>
         <module name="sun.jdk"/>
         <module name="ibm.jdk"/>

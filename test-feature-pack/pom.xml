@@ -69,6 +69,26 @@
 			<artifactId>opentelemetry-jdbc</artifactId>
 		</dependency>
 
+
+<dependency>
+    <groupId>io.opentelemetry.instrumentation</groupId>
+    <artifactId>opentelemetry-kafka-clients-common</artifactId>
+</dependency>
+<dependency>
+    <groupId>io.opentelemetry.instrumentation</groupId>
+    <artifactId>opentelemetry-kafka-clients-2.6</artifactId>
+</dependency>
+
+
+<dependency>
+    <groupId>io.opentelemetry.javaagent.instrumentation</groupId>
+    <artifactId>opentelemetry-javaagent-jms-3.0</artifactId>
+</dependency>
+<dependency>
+	<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
+    <artifactId>opentelemetry-javaagent-jms-common</artifactId>
+</dependency>
+
 		<!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-util -->
 		
 		<dependency>
@@ -166,6 +186,20 @@
 				<artifactId>wildfly-galleon-maven-plugin</artifactId>
 				<version>${wildfly-galleon-plugin.version}</version>
 				<executions>
+					<!-- <execution>
+						<id>wildfly-galleon-pack-list</id>
+						<goals>
+							<goal>generate-all-artifacts-list</goal>
+						</goals>
+						<phase>compile</phase>
+						<configuration>
+							<fpArtifactId>test-feature-pack</fpArtifactId>
+							<fpGroupId>me.andidroid</fpGroupId>
+							<fpVersion>0.28.0</fpVersion>
+							
+							<offline>false</offline>
+						</configuration>
+					</execution> -->
 					<execution>
 						<id>wildfly-galleon-pack-build</id>
 						<goals>
@@ -175,7 +209,12 @@
 						<!-- <configuration>
 							<translate-to-fpl>true</translate-to-fpl>
 						</configuration> -->
+						<configuration>
+							<offline>false</offline>
+						</configuration>
+						
 					</execution>
+
 				</executions>
 			</plugin>
 		</plugins>

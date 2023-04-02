@@ -2,6 +2,8 @@
 <layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="postgresql-tracing-driver">
     <dependencies>
         <layer name="postgresql-driver"/>
+		<layer name="microprofile-telemetry"/>
+		<layer name="opentelemetry"/>
     </dependencies>
     <feature spec="subsystem.datasources">
 		<feature spec="subsystem.datasources.jdbc-driver">
