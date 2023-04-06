@@ -99,7 +99,7 @@
 		<postgres.version>42.6.0</postgres.version>
 		<artemis.version>2.28.0</artemis.version>
 		
-		<hibernate.version>6.2.0.CR4</hibernate.version>
+		<hibernate.version>6.2.0.Final</hibernate.version>
 		<hibernate.search.version>6.1.8.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.0.Final</hibernate.validator.version>
 		<resteasy.version>6.2.3.Final</resteasy.version>
