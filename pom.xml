@@ -103,7 +103,7 @@
 		<hibernate.search.version>6.1.8.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.0.Final</hibernate.validator.version>
 		<resteasy.version>6.2.3.Final</resteasy.version>
-		<infinispan.version>14.0.7.Final</infinispan.version>
+		<infinispan.version>14.0.8.Final</infinispan.version>
 		<kafka.version>3.4.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
 		<jackson.version>2.14.2</jackson.version>
