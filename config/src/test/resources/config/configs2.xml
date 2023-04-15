@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property name="test1" value="1"/>
+	<property name="test2" value="2"/>
+	<property name="test3" value="3"/>
+</properties>

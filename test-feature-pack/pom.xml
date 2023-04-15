@@ -161,6 +161,41 @@
 			<version>${project.version}</version>
 			<!-- <version>0.27.4-SNAPSHOT</version> -->
 		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-tcnative</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-tcnative-classes</artifactId>
+		</dependency>
+		<!-- <dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-tcnative-boringssl-static</artifactId>
+		</dependency> -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-tcnative-boringssl-static</artifactId>
+			<!-- <classifier>windows-x86_64</classifier> -->
+		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-jni-util</artifactId>
+			<version>0.0.6.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-handler</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>artemis-jakarta-ra</artifactId>
+			<version>2.26.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

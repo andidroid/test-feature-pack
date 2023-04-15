@@ -28,6 +28,13 @@
     </resources>
 
     <dependencies>
+        <module name="java.logging"/>
+        <module name="java.xml"/>
+        <module name="javax.api"/>
+        <module name="javax.xml.stream.api"/>
+        <module name="jakarta.activation.api"/>
+        <module name="jakarta.xml.bind.api"/>
+        <module name="org.glassfish.jaxb"/>
         <module name="asm.asm"/>
         <module name="org.eclipse.microprofile.config.api"/>
         <module name="org.jboss.logging"/>
@@ -37,7 +44,7 @@
         <module name="io.smallrye.common.classloader"/>
         <module name="io.smallrye.common.expression"/>
         <module name="io.smallrye.common.function"/>
-		<module name="io.smallrye.config"/>
+        <module name="io.smallrye.config"/>
 		<!-- <module name="org.dom4j"/> -->
     </dependencies>
 </module>

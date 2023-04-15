@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="netty-tcnative">
+    <packages>
+        <package name="io.netty.netty-tcnative"/>
+        <package name="io.netty.netty-handler"/>
+        <package name="org.apache.activemq.artemis.ra"/>
+    </packages>
+</layer-spec>
+

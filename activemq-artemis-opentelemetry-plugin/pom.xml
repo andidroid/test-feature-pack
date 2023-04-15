@@ -7,10 +7,10 @@
     <version>0.28.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>artemis</artifactId>
+  <artifactId>activemq-artemis-opentelemetry-plugin</artifactId>
 
   <properties>
-    
+    <opentelemetry.version>1.25.0</opentelemetry.version>
   </properties>
   <dependencyManagement>
 		<dependencies>
@@ -74,7 +74,15 @@
       </dependency>
       <dependency>
          <groupId>io.opentelemetry</groupId>
+         <artifactId>opentelemetry-exporter-logging-otlp</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>io.opentelemetry</groupId>
          <artifactId>opentelemetry-exporter-otlp</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>io.opentelemetry</groupId>
+         <artifactId>opentelemetry-exporter-otlp-logs</artifactId>
       </dependency>
       <dependency>
          <groupId>io.opentelemetry</groupId>
@@ -88,6 +96,47 @@
          <groupId>io.opentelemetry</groupId>
          <artifactId>opentelemetry-sdk-testing</artifactId>
       </dependency>
+
+      <dependency>
+         <groupId>io.opentelemetry.instrumentation</groupId>
+         <artifactId>opentelemetry-netty-4.1</artifactId>
+         <version>${opentelemetry.version}-alpha</version>
+      </dependency>
+      <dependency>
+         <groupId>io.opentelemetry.instrumentation</groupId>
+         <artifactId>opentelemetry-runtime-metrics</artifactId>
+         <version>${opentelemetry.version}-alpha</version>
+      </dependency>
+      <dependency>
+         <groupId>io.opentelemetry.instrumentation</groupId>
+         <artifactId>opentelemetry-log4j-appender-2.17</artifactId>
+         <version>${opentelemetry.version}-alpha</version>
+      </dependency>
+      <dependency>
+         <groupId>io.opentelemetry.instrumentation</groupId>
+         <artifactId>opentelemetry-micrometer-1.5</artifactId>
+         <version>${opentelemetry.version}-alpha</version>
+      </dependency>
+
+
+<!-- dependencies for Netty OPENSSL -->
+      	<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-tcnative</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-tcnative-classes</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-tcnative-boringssl-static</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-tcnative-boringssl-static</artifactId>
+				<classifier>windows-x86_64</classifier>
+			</dependency>
   </dependencies>
 
 

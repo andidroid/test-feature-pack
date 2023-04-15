@@ -28,8 +28,8 @@ public class PostgresSSLFactory extends WrappedFactory {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(PostgresSSLFactory.class);
 
-	private static final String CONFIG_FILE_DIRECTORY = System.getProperty("external.config.dir");
-	
+	private static final String SSL_CONTEXT = System.getProperty("SSL_CONTEXT", "default");
+
 	private static final String KEYSTORE_FILE = System.getProperty("KEYSTORE_FILE");
 	private static final String KEYSTORE_PASSWORD = System.getProperty("KEYSTORE_PASSWORD");
 	private static final String KEY_PASSWORD = System.getProperty("KEY_PASSWORD");
@@ -38,15 +38,22 @@ public class PostgresSSLFactory extends WrappedFactory {
 
 	public PostgresSSLFactory() {
 		try {
-			super.factory = createSSLFactory(KEYSTORE_FILE, KEYSTORE_PASSWORD, KEY_PASSWORD, TRUSTSTORE_FILE, TRUSTSTORE_PASSWORD);
-		System.out.println("ssl factory created " + this.factory);
+			if ("default".equalsIgnoreCase(SSL_CONTEXT)) {
+				super.factory = SSLContext.getDefault().getSocketFactory();
+			} else {
+				super.factory = createSSLFactory(KEYSTORE_FILE, KEYSTORE_PASSWORD, KEY_PASSWORD, TRUSTSTORE_FILE,
+						TRUSTSTORE_PASSWORD);
+			}
+
+			System.out.println("ssl factory created " + this.factory);
 		} catch (Exception e) {
 			LOGGER.error("error creating postgres ssl factory", e);
 			e.printStackTrace();
 		}
 	}
 
-	private SSLSocketFactory createSSLFactory(String keystoreFile, String keystorePassword, String keyPassword, String truststoreFile, String truststorePassword)
+	private SSLSocketFactory createSSLFactory(String keystoreFile, String keystorePassword, String keyPassword,
+			String truststoreFile, String truststorePassword)
 			throws Exception {
 
 		KeyStore keystore = loadKeyStore(keystoreFile, keystorePassword);
@@ -74,6 +81,5 @@ public class PostgresSSLFactory extends WrappedFactory {
 
 		return ks;
 	}
-	
 
 }

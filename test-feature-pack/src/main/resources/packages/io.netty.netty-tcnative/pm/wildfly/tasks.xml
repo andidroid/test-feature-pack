@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<tasks xmlns="urn:wildfly:wildfly-feature-pack-tasks:2.0">
+    <copy-artifact artifact="io.netty:netty-tcnative-boringssl-static::windows-x86_64" to-location="modules/system/layers/base/io/netty/netty-tcnative/main/lib" extract="true" >
+        <filter pattern="META-INF/" include="true" />
+        <filter pattern="META-INF/native/*" include="true" />
+        <filter pattern="*" include="false"/>
+    </copy-artifact>
+    <copy-artifact artifact="io.netty:netty-tcnative-boringssl-static::linux-x86_64" to-location="modules/system/layers/base/io/netty/netty-tcnative/main/lib" extract="true" >
+        <filter pattern="META-INF/" include="true" />
+        <filter pattern="META-INF/native/*" include="true" />
+        <filter pattern="*" include="false"/>
+    </copy-artifact>
+</tasks>
