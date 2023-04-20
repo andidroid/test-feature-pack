@@ -90,7 +90,6 @@
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 
 		<!-- api dependency versions -->
-		<jcache.version>1.1.1</jcache.version>
 		<slf4j.version>2.0.7</slf4j.version>
 
 		<!-- implementation dependency versions -->
@@ -115,7 +114,6 @@
 		<krazo.version>3.0.0</krazo.version>
 
 		<smallrye-config.version>3.1.3</smallrye-config.version>
-		<opentracing-jms.version>0.1.11</opentracing-jms.version>
 		<opentelemetry.version>1.20.0</opentelemetry.version>
 
 		<galleon.version>5.1.0.Final</galleon.version>
@@ -162,24 +160,9 @@
 			</dependency>
 
 			<dependency>
-				<groupId>javax.cache</groupId>
-				<artifactId>cache-api</artifactId>
-				<version>${jcache.version}</version>
-			</dependency>
-			<dependency>
 				<groupId>org.hibernate.orm</groupId>
 				<artifactId>hibernate-spatial</artifactId>
 				<version>${hibernate.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.infinispan</groupId>
-				<artifactId>infinispan-jcache</artifactId>
-				<version>${infinispan.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.infinispan</groupId>
-				<artifactId>infinispan-jcache-remote</artifactId>
-				<version>${infinispan.version}</version>
 			</dependency>
 
 			<dependency>
@@ -359,7 +342,6 @@
 
 	<modules>
 		<module>config</module>
-		<module>activemq-artemis-opentelemetry-plugin</module>
 		<module>test-feature-pack</module>
 	</modules>
 </project>
