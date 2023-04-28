@@ -234,7 +234,7 @@
 			<dependency>
 				<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
 				<artifactId>opentelemetry-javaagent-jms-common</artifactId>
-				<version>1.25.0-alpha</version>
+				<version>1.25.1-alpha</version>
 			</dependency>
 
 			<dependency>
