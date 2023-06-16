@@ -229,7 +229,7 @@
 			<dependency>
 				<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
 				<artifactId>opentelemetry-javaagent-jms-3.0</artifactId>
-				<version>1.26.0-alpha</version>
+				<version>1.27.0-alpha</version>
 			</dependency>
 			<dependency>
 				<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
