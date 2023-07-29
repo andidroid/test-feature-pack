@@ -211,9 +211,6 @@
 				<version>${smallrye-config.version}</version>
 			</dependency>
 
-
-
-
 			<dependency>
 				<groupId>io.opentelemetry.instrumentation</groupId>
 				<artifactId>opentelemetry-kafka-clients-common</artifactId>
@@ -222,18 +219,6 @@
 			<dependency>
 				<groupId>io.opentelemetry.instrumentation</groupId>
 				<artifactId>opentelemetry-kafka-clients-2.6</artifactId>
-				<version>${opentelemetry.version}-alpha</version>
-			</dependency>
-
-
-			<dependency>
-				<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
-				<artifactId>opentelemetry-javaagent-jms-3.0</artifactId>
-				<version>${opentelemetry.version}-alpha</version>
-			</dependency>
-			<dependency>
-				<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
-				<artifactId>opentelemetry-javaagent-jms-common</artifactId>
 				<version>${opentelemetry.version}-alpha</version>
 			</dependency>
 

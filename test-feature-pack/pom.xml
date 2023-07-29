@@ -67,16 +67,6 @@
     <artifactId>opentelemetry-kafka-clients-2.6</artifactId>
 </dependency>
 
-
-<dependency>
-    <groupId>io.opentelemetry.javaagent.instrumentation</groupId>
-    <artifactId>opentelemetry-javaagent-jms-3.0</artifactId>
-</dependency>
-<dependency>
-	<groupId>io.opentelemetry.javaagent.instrumentation</groupId>
-    <artifactId>opentelemetry-javaagent-jms-common</artifactId>
-</dependency>
-
 		<!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-util -->
 		
 		<dependency>
