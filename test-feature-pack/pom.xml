@@ -56,6 +56,12 @@
 		    <version>${wildfly.version}</version>
 		    <type>pom</type>
 		</dependency>
+		<dependency>
+		    <groupId>org.wildfly</groupId>
+		    <artifactId>wildfly-standard-ee-bom</artifactId>
+		    <version>${wildfly.version}</version>
+		    <type>pom</type>
+		</dependency>
 		
 		<dependency>
 			<groupId>org.postgresql</groupId>
