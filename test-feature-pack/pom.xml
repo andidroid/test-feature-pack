@@ -48,7 +48,7 @@
 		<dependency>
 			<groupId>org.wildfly</groupId>
 			<artifactId>wildfly-common-ee-dependency-management</artifactId>
-			<type>zip</type>
+			<type>pom</type>
 		</dependency>
 		
 		<dependency>
