@@ -162,6 +162,12 @@
 				<type>zip</type>
 			</dependency>
 			<dependency>
+			    <groupId>org.wildfly</groupId>
+			    <artifactId>wildfly-common-ee-dependency-management</artifactId>
+			    <version>${wildfly.version}</version>
+			    <type>pom</type>
+			</dependency>
+			<dependency>
 				<groupId>org.postgresql</groupId>
 				<artifactId>postgresql</artifactId>
 				<version>${postgres.version}</version>
