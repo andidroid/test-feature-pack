@@ -126,17 +126,20 @@
 	</properties>
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
+		<!--
+	<dependency>
                 <groupId>me.andidroid</groupId>
                 <artifactId>test-feature-pack</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
-			<dependency>
+			
+	<dependency>
                 <groupId>me.andidroid</groupId>
                 <artifactId>config</artifactId>
                 <version>${project.version}</version>
             </dependency>
+			-->
 			<dependency>
 				<groupId>org.wildfly</groupId>
 				<artifactId>wildfly-galleon-pack</artifactId>
