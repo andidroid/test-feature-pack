@@ -44,6 +44,13 @@
 			<artifactId>wildfly-microprofile-reactive-feature-pack</artifactId>
 			<type>zip</type>
 		</dependency>
+
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-common-ee-dependency-management</artifactId>
+			<type>zip</type>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
