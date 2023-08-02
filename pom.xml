@@ -126,17 +126,20 @@
 	</properties>
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
+		<!--
+	<dependency>
                 <groupId>me.andidroid</groupId>
                 <artifactId>test-feature-pack</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
-			<dependency>
+			
+	<dependency>
                 <groupId>me.andidroid</groupId>
                 <artifactId>config</artifactId>
                 <version>${project.version}</version>
             </dependency>
+			-->
 			<dependency>
 				<groupId>org.wildfly</groupId>
 				<artifactId>wildfly-galleon-pack</artifactId>
@@ -157,6 +160,12 @@
 				<artifactId>wildfly-microprofile-reactive-feature-pack</artifactId>
 				<version>${wildfly-reactive-feature-pack.version}</version>
 				<type>zip</type>
+			</dependency>
+			<dependency>
+			    <groupId>org.wildfly</groupId>
+			    <artifactId>wildfly-common-ee-dependency-management</artifactId>
+			    <version>${wildfly.version}</version>
+			    <type>pom</type>
 			</dependency>
 			<dependency>
 				<groupId>org.postgresql</groupId>

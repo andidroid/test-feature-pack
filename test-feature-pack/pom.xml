@@ -44,6 +44,25 @@
 			<artifactId>wildfly-microprofile-reactive-feature-pack</artifactId>
 			<type>zip</type>
 		</dependency>
+
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-common-ee-dependency-management</artifactId>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+		    <groupId>org.wildfly</groupId>
+		    <artifactId>wildfly-common-expansion-dependency-management</artifactId>
+		    <version>${wildfly.version}</version>
+		    <type>pom</type>
+		</dependency>
+		<dependency>
+		    <groupId>org.wildfly</groupId>
+		    <artifactId>wildfly-standard-ee-bom</artifactId>
+		    <version>${wildfly.version}</version>
+		    <type>pom</type>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -132,14 +151,13 @@
 			<groupId>io.smallrye.config</groupId>
 			<artifactId>smallrye-config-events</artifactId>
 		</dependency>
-
+<!--
 		<dependency>
 			<groupId>me.andidroid</groupId>
 			<artifactId>config</artifactId>
 			<version>${project.version}</version>
-			<!-- <version>0.27.4-SNAPSHOT</version> -->
 		</dependency>
-
+-->
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-tcnative</artifactId>
