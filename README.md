@@ -16,3 +16,8 @@ mvn clean install
 
 `kafka-streams` layer
 ---------------------------------
+
+
+####
+mvn clean package
+mvn versions:set -DnewVersion=0.30.0-SNAPSHOT
