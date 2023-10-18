@@ -151,13 +151,13 @@
 			<groupId>io.smallrye.config</groupId>
 			<artifactId>smallrye-config-events</artifactId>
 		</dependency>
-<!--
+
 		<dependency>
 			<groupId>me.andidroid</groupId>
 			<artifactId>config</artifactId>
 			<version>${project.version}</version>
 		</dependency>
--->
+
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-tcnative</artifactId>

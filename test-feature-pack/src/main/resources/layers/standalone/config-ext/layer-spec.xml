@@ -5,6 +5,7 @@
     </dependencies>
     <packages>
     	<package name="io.smallrye.config.ext"/>
+        <package name="io.smallrye.config.events"/>
     </packages>
 </layer-spec>
 

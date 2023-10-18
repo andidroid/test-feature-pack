@@ -20,14 +20,20 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
-<module name="io.smallrye.config.ext" xmlns="urn:jboss:module:1.9">
+<module name="io.smallrye.config.events" xmlns="urn:jboss:module:1.9">
 
     <resources>
-    	<artifact name="${me.andidroid:config}"/>
-      <!-- <artifact name="${io.smallrye.config:smallrye-config-events}"/> -->
+      <artifact name="${io.smallrye.config:smallrye-config-events}"/>
     </resources>
 
     <dependencies>
+<module name="java.desktop"/>
+        <module name="java.logging"/>
+        <module name="java.xml"/>
+        <module name="jakarta.activation.api" export="true"/>
+        <module name="org.eclipse.angus.activation" services="export" export="true"/>
+
+
         <module name="java.logging"/>
         <module name="java.xml"/>
         <module name="javax.api"/>
@@ -45,7 +51,6 @@
         <module name="io.smallrye.common.expression"/>
         <module name="io.smallrye.common.function"/>
         <module name="io.smallrye.config"/>
-        <module name="io.smallrye.config.events"/>
 		<!-- <module name="org.dom4j"/> -->
     </dependencies>
 </module>

@@ -8,6 +8,7 @@
   </parent>
 
   <artifactId>config</artifactId>
+  <packaging>jar</packaging>
 
   <properties>
     <junit.version>4.13.2</junit.version>
