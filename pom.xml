@@ -106,7 +106,7 @@
 		<kafka.version>3.5.1</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
 		<jackson.version>2.15.2</jackson.version>
-		<jaxb-runtime.version>4.0.3</jaxb-runtime.version>
+		<jaxb-runtime.version>4.0.4</jaxb-runtime.version>
 
 		<jts.version>1.19.0</jts.version>
 
