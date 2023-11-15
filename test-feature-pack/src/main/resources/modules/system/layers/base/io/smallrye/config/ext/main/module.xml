@@ -47,5 +47,14 @@
         <module name="io.smallrye.config"/>
         <module name="io.smallrye.config.events"/>
 		<!-- <module name="org.dom4j"/> -->
+
+        <module name="org.slf4j"/>
+        <module name="org.slf4j.impl"/>
+
+        <!-- for Security Audit Logging -->
+        <module name="org.wildfly.common"/>
+        <module name="org.wildfly.security.elytron-private"/>
+		    <module name="org.wildfly.security.elytron"/>
+		    <module name="org.wildfly.extension.elytron"/>
     </dependencies>
 </module>

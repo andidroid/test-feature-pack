@@ -12,14 +12,20 @@ import org.slf4j.LoggerFactory;
  * 
  */
 public class TestCustomSecurityEventListener
-        implements java.util.function.Consumer<org.wildfly.security.auth.server.event.SecurityEvent> {
+        implements
+        // org.wildfly.extension.elytron.capabilities._private.SecurityEventListener,
+        java.util.function.Consumer<org.wildfly.security.auth.server.event.SecurityEvent> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TestCustomSecurityEventListener.class);
+
+    public TestCustomSecurityEventListener() {
+        LOGGER.info("initialize TestCustomSecurityEventListener");
+    }
 
     @Override
     public void accept(SecurityEvent t) {
 
-        LOGGER.info(t.getSecurityIdentity().toString());
+        LOGGER.info(t.getInstant().toString() + " - " + t.getSecurityIdentity().toString());
     }
 
 }
