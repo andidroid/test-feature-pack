@@ -17,7 +17,7 @@
 		<version>1.0.4</version>
 	</parent>
 	<artifactId>test-feature-pack-parent</artifactId>
-	<version>0.31.1-SNAPSHOT</version>
+	<version>0.31.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>WildFly Featurepack</name>
 

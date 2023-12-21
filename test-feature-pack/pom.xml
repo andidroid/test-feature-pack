@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test-feature-pack-parent</artifactId>
-		<version>0.31.1-SNAPSHOT</version>
+		<version>0.31.2-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>test-feature-pack</artifactId>
@@ -152,11 +152,11 @@
 			<artifactId>smallrye-config-events</artifactId>
 		</dependency>
 
-		<!-- <dependency>
+		<dependency>
 			<groupId>me.andidroid</groupId>
 			<artifactId>config</artifactId>
 			<version>${project.version}</version>
-		</dependency> -->
+		</dependency>
 
 		<dependency>
 			<groupId>io.netty</groupId>
