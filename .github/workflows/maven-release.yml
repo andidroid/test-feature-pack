@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name github-actions
           git config --global user.email github-actions@github.com
-          mvn release:prepare -B -DautoVersionSubmodules=true -DskipTests=true
+          mvn release:prepare -B -DautoVersionSubmodules=true -DskipTests=true -DpreparationGoals=install
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
@@ -72,6 +72,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: /home/runner/work/test-feature-pack/test-feature-pack/target/checkout/target/test-feature-pack-${{ env.VERSION }}.zip
+          asset_path: /home/runner/work/test-feature-pack/test-feature-pack/target/checkout/test-feature-pack/target/test-feature-pack-${{ env.VERSION }}.zip
           asset_name: test-feature-pack.zip
           asset_content_type: application/zip
