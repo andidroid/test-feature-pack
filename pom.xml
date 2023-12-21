@@ -14,10 +14,10 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test</artifactId>
-		<version>1.0.2</version>
+		<version>1.0.4</version>
 	</parent>
 	<artifactId>test-feature-pack-parent</artifactId>
-	<version>0.30.0-SNAPSHOT</version>
+	<version>0.31.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>WildFly Featurepack</name>
 
@@ -94,7 +94,7 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.20.0</log4j.version>
-		<wildfly.version>30.0.1.Final</wildfly.version>
+		<wildfly.version>31.0.0.Beta1</wildfly.version>
 		<postgres.version>42.7.1</postgres.version>
 		<artemis.version>2.31.0</artemis.version>
 		
@@ -114,7 +114,7 @@
 		<krazo.version>3.0.0</krazo.version>
 
 		<smallrye-config.version>3.4.4</smallrye-config.version>
-		<opentelemetry.version>1.20.0</opentelemetry.version>
+		<opentelemetry.version>1.29.0</opentelemetry.version>
 
 		<galleon.version>5.2.2.Final</galleon.version>
 		<wildfly-galleon-plugin.version>6.5.4.Final</wildfly-galleon-plugin.version>
