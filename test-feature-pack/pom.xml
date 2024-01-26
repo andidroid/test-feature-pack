@@ -100,12 +100,12 @@
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-spatial3d</artifactId>
-			<version>9.8.0</version>
+			<version>${lucene.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-spatial-extras</artifactId>
-			<version>9.8.0</version>
+			<version>${lucene.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.sgr</groupId>
