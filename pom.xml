@@ -122,7 +122,7 @@
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
 		<netty.version>4.1.104.Final</netty.version>
-		<netty.tcnative.version>2.0.62.Final</netty.tcnative.version>
+		<netty.tcnative.version>2.0.63.Final</netty.tcnative.version>
 
 	</properties>
 	<dependencyManagement>
