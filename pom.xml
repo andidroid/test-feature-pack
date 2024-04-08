@@ -14,10 +14,10 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test</artifactId>
-		<version>1.0.5</version>
+		<version>1.0.6</version>
 	</parent>
 	<artifactId>test-feature-pack-parent</artifactId>
-	<version>0.31.6-SNAPSHOT</version>
+	<version>0.32.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>WildFly Featurepack</name>
 
@@ -38,7 +38,7 @@
 		<connection>scm:git:https://github.com/andidroid/test-feature-pack.git</connection>
 		<developerConnection>scm:git:https://github.com/andidroid/test-feature-pack.git</developerConnection>
 		<url>https://github.com/andidroid/test-feature-pack.git</url>
-		<tag>v0.29.0</tag>
+		<tag>v0.32.0</tag>
 	</scm>
 
 	<distributionManagement>
@@ -94,19 +94,19 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.20.0</log4j.version>
-		<wildfly.version>31.0.1.Final</wildfly.version>
+		<wildfly.version>32.0.0.Beta1</wildfly.version>
 		<postgres.version>42.7.3</postgres.version>
-		<artemis.version>2.31.0</artemis.version>
+		<artemis.version>2.32.0</artemis.version>
 		
 		<hibernate.version>6.4.4.Final</hibernate.version>
-		<hibernate.search.version>7.0.0.Final</hibernate.search.version>
+		<hibernate.search.version>7.1.0.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.1.Final</hibernate.validator.version>
 		<lucene.version>9.9.2</lucene.version>
-		<resteasy.version>6.2.6.Final</resteasy.version>
-		<infinispan.version>14.0.21.Final</infinispan.version>
+		<resteasy.version>6.2.8.Final</resteasy.version>
+		<infinispan.version>14.0.27.Final</infinispan.version>
 		<kafka.version>3.7.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
-		<jackson.version>2.15.2</jackson.version>
+		<jackson.version>2.15.4</jackson.version>
 		<jaxb-runtime.version>4.0.5</jaxb-runtime.version>
 
 		<jts.version>1.19.0</jts.version>
@@ -117,12 +117,13 @@
 		<smallrye-config.version>3.7.1</smallrye-config.version>
 		<opentelemetry.version>1.29.0</opentelemetry.version>
 
-		<galleon.version>5.2.2.Final</galleon.version>
-		<wildfly-galleon-plugin.version>6.5.4.Final</wildfly-galleon-plugin.version>
+		<galleon.version>6.0.0.Beta6</galleon.version>
+		<wildfly-galleon-plugin.version>7.0.0.Beta7</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
 		<netty.version>4.1.108.Final</netty.version>
 		<netty.tcnative.version>2.0.65.Final</netty.tcnative.version>
+		<netty.jni-util.version>0.0.9.Final</netty.jni-util.version>
 
 	</properties>
 	<dependencyManagement>
