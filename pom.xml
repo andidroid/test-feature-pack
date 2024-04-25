@@ -124,7 +124,7 @@
 		<netty.version>4.1.108.Final</netty.version>
 		<netty.tcnative.version>2.0.65.Final</netty.tcnative.version>
 		<netty.jni-util.version>0.0.9.Final</netty.jni-util.version>
-
+		<bucket4j.version>8.10.1</bucket4j.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -268,8 +268,28 @@
 			<dependency>
 				<groupId>io.netty</groupId>
 				<artifactId>netty-handler</artifactId>
-			<version>${netty.version}</version>
-		</dependency>
+				<version>${netty.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-core</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-jcache</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-caffeine</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-infinispan</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>

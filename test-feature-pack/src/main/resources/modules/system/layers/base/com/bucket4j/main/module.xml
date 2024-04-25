@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   ~ JBoss, Home of Professional Open Source.
-  ~ Copyright 2011, Red Hat, Inc., and individual contributors
+  ~ Copyright 2013, Red Hat, Inc., and individual contributors
   ~ as indicated by the @author tags. See the copyright.txt file in the
   ~ distribution for a full listing of individual contributors.
   ~
@@ -20,5 +20,18 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
-<!-- Represents the Hibernate 6.0.x module-->
-<module-alias name="org.hibernate.spatial" slot="6.0" target-name="org.hibernate.spatial" xmlns="urn:jboss:module:1.5"/>
+<module name="com.bucket4j" xmlns="urn:jboss:module:1.9">
+    <resources>
+        <artifact name="${com.bucket4j:bucket4j-core}"/>
+        <artifact name="${com.bucket4j:bucket4j-jcache}"/>
+        <artifact name="${com.bucket4j:bucket4j-caffeine}"/>
+        <artifact name="${com.bucket4j:bucket4j-infinispan}"/>
+    </resources>
+    <dependencies>
+        <module name="java.logging"/>
+        <module name="jdk.unsupported"/>
+        <module name="com.github.ben-manes.caffeine"/>
+        <module name="org.infinispan" export="true"/>
+        <module name="org.infinispan.core" export="true"/>
+    </dependencies>
+</module>

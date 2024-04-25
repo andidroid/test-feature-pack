@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="bucket4j">
+	<dependencies>
+
+    </dependencies>
+    <packages>
+    	<package name="com.bucket4j"/>
+    </packages>
+</layer-spec>
+

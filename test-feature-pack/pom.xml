@@ -192,6 +192,24 @@
 			<artifactId>artemis-jakarta-ra</artifactId>
 			<version>${artemis.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.bucket4j</groupId>
+			<artifactId>bucket4j-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.bucket4j</groupId>
+			<artifactId>bucket4j-jcache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.bucket4j</groupId>
+			<artifactId>bucket4j-caffeine</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.bucket4j</groupId>
+			<artifactId>bucket4j-infinispan</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
