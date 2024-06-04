@@ -96,7 +96,7 @@
 		<log4j.version>2.20.0</log4j.version>
 		<wildfly.version>32.0.1.Final</wildfly.version>
 		<postgres.version>42.7.3</postgres.version>
-		<artemis.version>2.32.0</artemis.version>
+		<artemis.version>2.34.0</artemis.version>
 		
 		<hibernate.version>6.4.4.Final</hibernate.version>
 		<hibernate.search.version>7.1.0.Final</hibernate.search.version>
