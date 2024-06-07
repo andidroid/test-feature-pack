@@ -20,20 +20,25 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
-<module name="com.bucket4j" xmlns="urn:jboss:module:1.9">
+<module name="com.jayway.jsonpath" xmlns="urn:jboss:module:1.9">
     <resources>
-        <artifact name="${com.bucket4j:bucket4j_jdk17-core}"/>
-        <artifact name="${com.bucket4j:bucket4j_jdk17-jcache}"/>
-        <artifact name="${com.bucket4j:bucket4j_jdk17-caffeine}"/>
-        <artifact name="${com.bucket4j:bucket4j_jdk17-infinispan}"/>
+        <artifact name="${com.jayway.jsonpath:json-path}"/>
     </resources>
     <dependencies>
         <module name="java.logging"/>
         <module name="jdk.unsupported"/>
-        <module name="com.github.ben-manes.caffeine"/>
-        <module name="org.infinispan" export="true"/>
-        <module name="org.infinispan.core" export="true"/>
-        <module name="org.infinispan.client.hotrod" export="true"/>
-        <module name="org.infinispan.protostream" export="true"/>
+        <module name="javax.api"/>
+        <module name="jakarta.enterprise.api"/>
+        <module name="jakarta.json.api"/>
+        <module name="jakarta.json.bind.api"/>
+
+        <module name="org.slf4j"/>
+
+        <module name="com.fasterxml.jackson.core.jackson-core"/>
+        <module name="com.fasterxml.jackson.core.jackson-databind"/>
+        <module name="com.fasterxml.jackson.core.jackson-annotations"/>
+        <module name="com.fasterxml.jackson.jakarta.jackson-jakarta-json-provider"/>
+
+        <module name="com.google.code.gson"/>
     </dependencies>
 </module>

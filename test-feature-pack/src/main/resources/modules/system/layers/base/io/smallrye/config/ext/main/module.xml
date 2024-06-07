@@ -56,5 +56,6 @@
         <module name="org.wildfly.security.elytron-private"/>
 		    <module name="org.wildfly.security.elytron"/>
 		    <module name="org.wildfly.extension.elytron"/>
+		    <module name="org.wildfly.event.logger"/>
     </dependencies>
 </module>
