@@ -118,7 +118,7 @@
 		<opentelemetry.version>1.29.0</opentelemetry.version>
 
 		<galleon.version>6.0.2.Final</galleon.version>
-		<wildfly-galleon-plugin.version>7.1.0.Final</wildfly-galleon-plugin.version>
+		<wildfly-galleon-plugin.version>7.1.1.Final</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
 		<netty.version>4.1.111.Final</netty.version>
