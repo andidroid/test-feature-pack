@@ -90,7 +90,7 @@
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 
 		<!-- api dependency versions -->
-		<slf4j.version>2.0.13</slf4j.version>
+		<slf4j.version>2.0.15</slf4j.version>
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.20.0</log4j.version>
