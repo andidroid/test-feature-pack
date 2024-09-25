@@ -109,7 +109,7 @@
 		<jackson.version>2.15.4</jackson.version>
 		<jaxb-runtime.version>4.0.5</jaxb-runtime.version>
 
-		<jts.version>1.19.0</jts.version>
+		<jts.version>1.20.0</jts.version>
 
 		<javaee.mvc.version>2.1.0</javaee.mvc.version>
 		<krazo.version>3.0.0</krazo.version>
