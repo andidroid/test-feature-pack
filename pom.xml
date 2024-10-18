@@ -101,7 +101,7 @@
 		<hibernate.version>6.6.1.Final</hibernate.version>
 		<hibernate.search.version>7.2.1.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.1.Final</hibernate.validator.version>
-		<lucene.version>9.11.1</lucene.version>
+		<lucene.version>10.0.0</lucene.version>
 		<resteasy.version>6.2.10.Final</resteasy.version>
 		<infinispan.version>14.0.32.Final</infinispan.version>
 		<kafka.version>3.7.1</kafka.version>
