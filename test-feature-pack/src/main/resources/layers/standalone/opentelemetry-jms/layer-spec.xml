@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="opentelemetry-jms">
+	<dependencies>
+		<layer name="microprofile-telemetry"/>
+		<layer name="opentelemetry"/>
+    </dependencies>
+    <packages>
+    	<package name="io.opentelemetry.instrumentation.opentelemetry-jms"/>
+    </packages>
+</layer-spec>
+

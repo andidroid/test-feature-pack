@@ -116,6 +116,7 @@
 
 		<smallrye-config.version>3.9.1</smallrye-config.version>
 		<opentelemetry.version>1.29.0</opentelemetry.version>
+		<opentelemetry-jms-client-instrumentation.version>1.0.1</opentelemetry-jms-client-instrumentation.version>
 
 		<galleon.version>6.0.3.Final</galleon.version>
 		<wildfly-galleon-plugin.version>7.2.1.Final</wildfly-galleon-plugin.version>
@@ -180,6 +181,12 @@
 				<groupId>io.opentelemetry.instrumentation</groupId>
 				<artifactId>opentelemetry-jdbc</artifactId>
 				<version>${opentelemetry.version}-alpha</version>
+			</dependency>
+
+			<dependency>
+				<groupId>me.andidroid</groupId>
+				<artifactId>opentelemetry-jms-client-instrumentation</artifactId>
+				<version>${opentelemetry-jms-client-instrumentation.version}</version>
 			</dependency>
 
 			<dependency>

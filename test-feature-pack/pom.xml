@@ -75,7 +75,10 @@
 			<groupId>io.opentelemetry.instrumentation</groupId>
 			<artifactId>opentelemetry-jdbc</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>me.andidroid</groupId>
+			<artifactId>opentelemetry-jms-client-instrumentation</artifactId>
+		</dependency>
 
 <dependency>
     <groupId>io.opentelemetry.instrumentation</groupId>
