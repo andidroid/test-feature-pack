@@ -35,6 +35,7 @@
 		<module name="io.opentelemetry.instrumentation.api"/>
 		<module name="io.opentelemetry.instrumentation.annotations"/>
         <module name="io.opentelemetry.sdk"/>
+        <module name="io.opentelemetry.semconv"/>
         <module name="wildflyee.api"/>
         <module name="io.smallrye.opentelemetry" services="import"/>
     </dependencies>
