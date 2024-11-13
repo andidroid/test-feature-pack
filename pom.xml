@@ -122,7 +122,7 @@
 		<wildfly-galleon-plugin.version>7.2.1.Final</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
-		<netty.version>4.1.112.Final</netty.version>
+		<netty.version>4.1.115.Final</netty.version>
 		<netty.tcnative.version>2.0.66.Final</netty.tcnative.version>
 		<netty.jni-util.version>0.0.9.Final</netty.jni-util.version>
 		<bucket4j.version>8.14.0</bucket4j.version>
