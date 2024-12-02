@@ -33,6 +33,8 @@
         <module name="io.opentelemetry.api"/>
 		<module name="io.opentelemetry.instrumentation.api"/>
 		<module name="io.opentelemetry.instrumentation.annotations"/>
+        <module name="io.opentelemetry.sdk"/>
+        <module name="io.opentelemetry.semconv"/>
         <module name="org.postgresql"/>
         <module name="wildflyee.api"/>
         <module name="sun.jdk"/>
