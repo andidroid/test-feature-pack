@@ -14,10 +14,10 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test</artifactId>
-		<version>1.0.9</version>
+		<version>1.0.10</version>
 	</parent>
 	<artifactId>test-feature-pack-parent</artifactId>
-	<version>0.34.1-SNAPSHOT</version>
+	<version>0.35.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>WildFly Featurepack</name>
 
@@ -38,7 +38,7 @@
 		<connection>scm:git:https://github.com/andidroid/test-feature-pack.git</connection>
 		<developerConnection>scm:git:https://github.com/andidroid/test-feature-pack.git</developerConnection>
 		<url>https://github.com/andidroid/test-feature-pack.git</url>
-		<tag>v0.32.0</tag>
+		<tag>v0.35.0</tag>
 	</scm>
 
 	<distributionManagement>
@@ -80,9 +80,9 @@
 
 	<properties>
 		<enforcer.skip>true</enforcer.skip>
-		<java.version>17</java.version>
+		<java.version>21</java.version>
 		<javaee.version>10.0.0</javaee.version>
-		<microprofile.version>6.1</microprofile.version>
+		<microprofile.version>7.0</microprofile.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -94,19 +94,19 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.20.0</log4j.version>
-		<wildfly.version>34.0.1.Final</wildfly.version>
+		<wildfly.version>35.0.0.Beta1</wildfly.version>
 		<postgres.version>42.7.4</postgres.version>
 		<artemis.version>2.38.0</artemis.version>
 		
 		<hibernate.version>6.6.3.Final</hibernate.version>
-		<hibernate.search.version>7.2.1.Final</hibernate.search.version>
+		<hibernate.search.version>7.2.2.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.1.Final</hibernate.validator.version>
 		<lucene.version>9.11.1</lucene.version>
-		<resteasy.version>6.2.10.Final</resteasy.version>
-		<infinispan.version>14.0.32.Final</infinispan.version>
+		<resteasy.version>6.2.11.Final</resteasy.version>
+		<infinispan.version>15.0.11.Final</infinispan.version>
 		<kafka.version>3.9.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
-		<jackson.version>2.17.2</jackson.version>
+		<jackson.version>2.18.1</jackson.version>
 		<jaxb-runtime.version>4.0.5</jaxb-runtime.version>
 
 		<jts.version>1.20.0</jts.version>
@@ -115,8 +115,9 @@
 		<krazo.version>3.0.0</krazo.version>
 
 		<smallrye-config.version>3.9.1</smallrye-config.version>
-		<opentelemetry.version>1.29.0</opentelemetry.version>
-		<opentelemetry-jms-client-instrumentation.version>1.0.1</opentelemetry-jms-client-instrumentation.version>
+		<opentelemetry.version>1.42.1</opentelemetry.version>
+		<opentelemetry-instrumentation.version>2.8.0</opentelemetry-instrumentation.version>
+		<opentelemetry-jms-client-instrumentation.version>2.0.0</opentelemetry-jms-client-instrumentation.version>
 
 		<galleon.version>6.0.4.Final</galleon.version>
 		<wildfly-galleon-plugin.version>7.3.1.Final</wildfly-galleon-plugin.version>
@@ -180,7 +181,7 @@
 			<dependency>
 				<groupId>io.opentelemetry.instrumentation</groupId>
 				<artifactId>opentelemetry-jdbc</artifactId>
-				<version>${opentelemetry.version}-alpha</version>
+				<version>${opentelemetry-instrumentation.version}-alpha</version>
 			</dependency>
 
 			<dependency>
@@ -244,12 +245,12 @@
 			<dependency>
 				<groupId>io.opentelemetry.instrumentation</groupId>
 				<artifactId>opentelemetry-kafka-clients-common</artifactId>
-				<version>${opentelemetry.version}-alpha</version>
+				<version>${opentelemetry-instrumentation.version}-alpha</version>
 			</dependency>
 			<dependency>
 				<groupId>io.opentelemetry.instrumentation</groupId>
 				<artifactId>opentelemetry-kafka-clients-2.6</artifactId>
-				<version>${opentelemetry.version}-alpha</version>
+				<version>${opentelemetry-instrumentation.version}-alpha</version>
 			</dependency>
 
 			<dependency>
