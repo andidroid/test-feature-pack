@@ -119,7 +119,7 @@
 		<opentelemetry-jms-client-instrumentation.version>1.0.1</opentelemetry-jms-client-instrumentation.version>
 
 		<galleon.version>6.0.4.Final</galleon.version>
-		<wildfly-galleon-plugin.version>7.2.1.Final</wildfly-galleon-plugin.version>
+		<wildfly-galleon-plugin.version>7.3.1.Final</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
 		<netty.version>4.1.115.Final</netty.version>
