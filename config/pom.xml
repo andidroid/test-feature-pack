@@ -84,7 +84,7 @@
         <dependency>
             <groupId>org.wildfly.core</groupId>
             <artifactId>wildfly-elytron-integration</artifactId>
-            <version>27.0.1.Final</version>
+            <version>28.0.0.Final</version>
         </dependency>
        
   </dependencies>
