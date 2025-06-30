@@ -100,7 +100,7 @@
 		<postgres.version>42.7.5</postgres.version>
 		<artemis.version>2.40.0</artemis.version>
 		
-		<hibernate.version>6.6.7.Final</hibernate.version>
+		<hibernate.version>7.0.4.Final</hibernate.version>
 		<hibernate.search.version>7.2.3.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.2.Final</hibernate.validator.version>
 		<lucene.version>9.11.1</lucene.version>
