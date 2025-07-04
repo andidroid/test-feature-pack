@@ -130,6 +130,7 @@
 		<netty.jni-util.version>0.0.9.Final</netty.jni-util.version>
 		<bucket4j.version>8.14.0</bucket4j.version>
 		<jsonpath.version>2.9.0</jsonpath.version>
+		<jsoup.version>1.21.1</jsoup.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -307,6 +308,12 @@
 				<artifactId>json-path</artifactId>
 				<version>${jsonpath.version}</version>
 			</dependency>
+
+			<dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>${jsoup.version}</version>
+        </dependency>
 
 			<!-- <dependency>
 				<groupId>org.owasp</groupId>
