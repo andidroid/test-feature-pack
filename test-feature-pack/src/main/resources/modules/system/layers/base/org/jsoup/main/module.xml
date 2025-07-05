@@ -4,6 +4,7 @@
         <artifact name="${org.jsoup:jsoup}"/>
     </resources>
     <dependencies>
+        <module name="java.xml"/>
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>
     </dependencies>
