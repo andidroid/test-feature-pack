@@ -121,7 +121,7 @@
 		<opentelemetry-instrumentation.version>2.8.0</opentelemetry-instrumentation.version>
 		<opentelemetry-jms-client-instrumentation.version>2.1.1</opentelemetry-jms-client-instrumentation.version>
 
-		<galleon.version>6.0.5.Final</galleon.version>
+		<galleon.version>6.0.6.Final</galleon.version>
 		<wildfly-galleon-plugin.version>7.4.0.Final</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
