@@ -76,10 +76,12 @@
 			<name>JBoss Public Maven Repository</name>
 			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
 		</repository>
+		<!--
 		<repository>
 			<id>JBossEA</id>
 			<url>https://repository.jboss.org/nexus/content/repositories/ea/</url>
 		</repository>
+		-->
 	</repositories>
 
 	<properties>
