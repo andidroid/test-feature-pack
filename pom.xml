@@ -71,11 +71,15 @@
 			<id>github</id>
 			<url>https://maven.pkg.github.com/andidroid/test</url>
 		</repository>
+		 <repository>
+			<id>jboss-public-maven-repository</id>
+			<name>JBoss Public Maven Repository</name>
+			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
 		<repository>
 			<id>JBossEA</id>
 			<url>https://repository.jboss.org/nexus/content/repositories/ea/</url>
 		</repository>
-
 	</repositories>
 
 	<properties>
