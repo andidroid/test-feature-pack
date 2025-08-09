@@ -62,6 +62,11 @@
 	<!-- External non standard repositories -->
 	<repositories>
 		<repository>
+			<id>jboss-public-maven-repository</id>
+			<name>JBoss Public Maven Repository</name>
+			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
+		<repository>
 			<id>central</id>
 			<name>Maven Central</name>
 			<layout>default</layout>
@@ -71,11 +76,7 @@
 			<id>github</id>
 			<url>https://maven.pkg.github.com/andidroid/test</url>
 		</repository>
-		<repository>
-			<id>jboss-public-maven-repository</id>
-			<name>JBoss Public Maven Repository</name>
-			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
-		</repository>
+		
 		<repository>
 			<id>jboss-releases-repository</id>
 			<name>JBoss Release Maven Repository</name>
