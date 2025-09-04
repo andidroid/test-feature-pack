@@ -254,6 +254,13 @@
 				<groupId>org.wildfly.galleon-plugins</groupId>
 				<artifactId>wildfly-galleon-maven-plugin</artifactId>
 				<version>${wildfly-galleon-plugin.version}</version>
+				<dependencies>
+					<dependency>
+					    <groupId>org.jboss</groupId>
+					    <artifactId>jboss-parent</artifactId>
+					    <version>50</version>
+					</dependency>
+				</dependencies>
 				<executions>
 					<!-- <execution>
 						<id>wildfly-galleon-pack-list</id>
