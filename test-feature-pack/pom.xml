@@ -223,6 +223,13 @@
 			<artifactId>jsoup</artifactId>
 		</dependency>
 
+		<dependency>
+		    <groupId>org.jboss</groupId>
+		    <artifactId>jboss-parent</artifactId>
+		    <version>50</version>
+		    <type>pom</type>
+		</dependency>
+
 	</dependencies>
 
 	<build>
