@@ -223,6 +223,13 @@
 			<artifactId>jsoup</artifactId>
 		</dependency>
 
+		<dependency>
+		    <groupId>org.jboss</groupId>
+		    <artifactId>jboss-parent</artifactId>
+		    <version>49</version>
+		    <type>pom</type>
+		</dependency>
+
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>
@@ -304,6 +311,14 @@
 				<groupId>org.wildfly.galleon-plugins</groupId>
 				<artifactId>wildfly-galleon-maven-plugin</artifactId>
 				<version>${wildfly-galleon-plugin.version}</version>
+				<dependencies>
+					<dependency>
+					    <groupId>org.jboss</groupId>
+					    <artifactId>jboss-parent</artifactId>
+					    <version>49</version>
+						<type>pom</type>
+					</dependency>
+				</dependencies>
 				<executions>
 					<!-- <execution>
 						<id>wildfly-galleon-pack-list</id>
