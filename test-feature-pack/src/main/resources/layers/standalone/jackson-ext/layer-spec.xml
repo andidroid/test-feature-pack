@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="jackson-ext">
+    <packages>
+        <package name="com.fasterxml.woodstox.woodstox-core"/>
+        <package name="com.fasterxml.woodstox.woodstox-core"/>
+        <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-csv"/>
+        <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-properties"/>
+        <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-protobuf"/>
+        <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"/>
+        <package name="com.fasterxml.jackson.datatype.jackson-datatype-hibernate6"/>
+        <package name="com.fasterxml.jackson.datatype.jackson-datatype-jsonp"/>
+    </packages>
+</layer-spec>
+

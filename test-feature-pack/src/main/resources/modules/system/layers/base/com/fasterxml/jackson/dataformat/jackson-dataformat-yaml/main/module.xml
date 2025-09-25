@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" xmlns="urn:jboss:module:1.9">
+     <resources>
+        <artifact name="${com.fasterxml.jackson.dataformat:jackson-dataformat-yaml}"/>
+    </resources>
+
+    <dependencies>
+        <module name="com.fasterxml.jackson.core.jackson-core"/>
+        <module name="com.fasterxml.jackson.core.jackson-databind"/>
+        <module name="org.yaml.snakeyaml"/>
+    </dependencies>
+</module>
