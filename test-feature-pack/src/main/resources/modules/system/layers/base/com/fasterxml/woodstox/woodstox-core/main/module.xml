@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright The WildFly Authors
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+<module name="com.fasterxml.woodstox.woodstox-core" xmlns="urn:jboss:module:1.9">
+     <resources>
+        <artifact name="${com.fasterxml.woodstox:woodstox-core}"/>
+        <artifact name="${org.codehaus.woodstox:stax2-api}"/>
+    </resources>
+	  <dependencies>
+        <module name="javax.xml.stream.api"/>
+		    <module name="java.xml"/>
+    </dependencies>
+</module>

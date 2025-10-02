@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="com.fasterxml.jackson.jakarta.rs.jackson-jakarta-rs-yaml-provider" xmlns="urn:jboss:module:1.9">
+    <resources>
+        <artifact name="${com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider}"/>
+    </resources>
+
+    <dependencies>
+        <module name="com.fasterxml.jackson.jakarta.jackson-jakarta-json-provider"/>
+        <module name="com.fasterxml.jackson.core.jackson-annotations"/>
+        <module name="com.fasterxml.jackson.core.jackson-core"/>
+        <module name="com.fasterxml.jackson.core.jackson-databind"/>
+        <module name="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
+        <module name="jakarta.ws.rs.api"/>
+        <module name="org.yaml.snakeyaml"/>
+        <module name="java.logging"/>
+        <module name="java.desktop"/>
+    </dependencies>
+</module>
