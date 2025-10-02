@@ -80,14 +80,14 @@
 			<artifactId>opentelemetry-jms-client-instrumentation</artifactId>
 		</dependency>
 
-<dependency>
-    <groupId>io.opentelemetry.instrumentation</groupId>
-    <artifactId>opentelemetry-kafka-clients-common</artifactId>
-</dependency>
-<dependency>
-    <groupId>io.opentelemetry.instrumentation</groupId>
-    <artifactId>opentelemetry-kafka-clients-2.6</artifactId>
-</dependency>
+		<dependency>
+			<groupId>io.opentelemetry.instrumentation</groupId>
+			<artifactId>opentelemetry-kafka-clients-common-0.11</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.opentelemetry.instrumentation</groupId>
+			<artifactId>opentelemetry-kafka-clients-2.6</artifactId>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.opentracing/opentracing-util -->
 		
