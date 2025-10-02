@@ -20,7 +20,7 @@
     </properties>
 
     <resources>
-        <artifact name="${io.opentelemetry.instrumentation:opentelemetry-kafka-clients-common}"/>
+        <artifact name="${io.opentelemetry.instrumentation:opentelemetry-kafka-clients-common-0.11}"/>
         <artifact name="${io.opentelemetry.instrumentation:opentelemetry-kafka-clients-2.6}"/>
     </resources>
 
