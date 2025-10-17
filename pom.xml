@@ -111,7 +111,7 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.20.0</log4j.version>
-		<wildfly.version>38.0.0.Beta1</wildfly.version>
+		<wildfly.version>38.0.0.Final</wildfly.version>
 		<wildfly-core.version>30.0.0.Final</wildfly-core.version>
 		<wildfly-elytron.version>2.7.0.Final</wildfly-elytron.version>
 		<postgres.version>42.7.8</postgres.version>
