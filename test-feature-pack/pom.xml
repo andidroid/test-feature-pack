@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>me.andidroid</groupId>
 		<artifactId>test-feature-pack-parent</artifactId>
-		<version>0.38.2-SNAPSHOT</version>
+		<version>0.38.2</version>
 	</parent>
 
 	<artifactId>test-feature-pack</artifactId>
