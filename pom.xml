@@ -117,12 +117,12 @@
 		<postgres.version>42.7.8</postgres.version>
 		<artemis.version>2.42.0</artemis.version>
 		
-		<hibernate.version>7.2.0.Final</hibernate.version>
+		<hibernate.version>6.6.37.Final</hibernate.version>
 		<hibernate.search.version>7.2.4.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.3.Final</hibernate.validator.version>
 		<lucene.version>9.11.1</lucene.version>
-		<resteasy.version>6.2.14.Final</resteasy.version>
-		<infinispan.version>15.2.6.Final</infinispan.version>
+		<resteasy.version>6.2.15.Final</resteasy.version>
+		<infinispan.version>16.0.3</infinispan.version>
 		<kafka.version>3.9.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
 		<jackson.version>2.18.4</jackson.version>
@@ -142,7 +142,7 @@
 		<wildfly-galleon-plugin.version>8.0.2.Final</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
-		<netty.version>4.1.127.Final</netty.version>
+		<netty.version>4.1.128.Final</netty.version>
 		<netty.tcnative.version>2.0.74.Final</netty.tcnative.version>
 		<netty.jni-util.version>0.0.10.Final</netty.jni-util.version>
 		<bucket4j.version>8.15.0</bucket4j.version>
