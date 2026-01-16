@@ -111,18 +111,18 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.20.0</log4j.version>
-		<wildfly.version>38.0.1.Final</wildfly.version>
+		<wildfly.version>39.0.0.Final</wildfly.version>
 		<wildfly-core.version>31.0.1.Final</wildfly-core.version>
 		<wildfly-elytron.version>2.7.1.Final</wildfly-elytron.version>
 		<postgres.version>42.7.9</postgres.version>
 		<artemis.version>2.44.0</artemis.version>
 		
 		<hibernate.version>6.6.40.Final</hibernate.version>
-		<hibernate.search.version>7.2.4.Final</hibernate.search.version>
+		<hibernate.search.version>7.2.5.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.3.Final</hibernate.validator.version>
 		<lucene.version>9.11.1</lucene.version>
 		<resteasy.version>6.2.15.Final</resteasy.version>
-		<infinispan.version>16.0.3</infinispan.version>
+		<infinispan.version>16.0.5</infinispan.version>
 		<kafka.version>3.9.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
 		<jackson.version>2.20.1</jackson.version>
@@ -142,7 +142,7 @@
 		<wildfly-galleon-plugin.version>8.1.0.Final</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
-		<netty.version>4.1.128.Final</netty.version>
+		<netty.version>4.1.130.Final</netty.version>
 		<netty.tcnative.version>2.0.74.Final</netty.tcnative.version>
 		<netty.jni-util.version>0.0.10.Final</netty.jni-util.version>
 		<bucket4j.version>8.16.0</bucket4j.version>
