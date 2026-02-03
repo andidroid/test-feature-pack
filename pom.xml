@@ -145,7 +145,7 @@
 		<netty.version>4.1.130.Final</netty.version>
 		<netty.tcnative.version>2.0.74.Final</netty.tcnative.version>
 		<netty.jni-util.version>0.0.10.Final</netty.jni-util.version>
-		<bucket4j.version>8.16.0</bucket4j.version>
+		<bucket4j.version>8.16.1</bucket4j.version>
 		<jsonpath.version>2.10.0</jsonpath.version>
 		<jsoup.version>1.22.1</jsoup.version>
 	</properties>
