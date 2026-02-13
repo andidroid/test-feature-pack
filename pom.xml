@@ -114,7 +114,7 @@
 		<wildfly.version>39.0.1.Final</wildfly.version>
 		<wildfly-core.version>31.0.1.Final</wildfly-core.version>
 		<wildfly-elytron.version>2.8.2.Final</wildfly-elytron.version>
-		<postgres.version>42.7.9</postgres.version>
+		<postgres.version>42.7.10</postgres.version>
 		<artemis.version>2.44.0</artemis.version>
 		
 		<hibernate.version>6.6.40.Final</hibernate.version>
