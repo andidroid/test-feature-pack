@@ -125,7 +125,7 @@
 		<infinispan.version>16.0.5</infinispan.version>
 		<kafka.version>3.9.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
-		<jackson.version>2.20.1</jackson.version>
+		<jackson.version>2.21.1</jackson.version>
 		<jaxb-runtime.version>4.0.5</jaxb-runtime.version>
 
 		<jts.version>1.20.0</jts.version>
