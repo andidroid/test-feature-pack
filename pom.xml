@@ -123,7 +123,7 @@
 		<lucene.version>9.11.1</lucene.version>
 		<resteasy.version>6.2.15.Final</resteasy.version>
 		<infinispan.version>16.0.5</infinispan.version>
-		<kafka.version>3.9.0</kafka.version>
+		<kafka.version>4.2.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
 		<jackson.version>2.20.1</jackson.version>
 		<jaxb-runtime.version>4.0.5</jaxb-runtime.version>
