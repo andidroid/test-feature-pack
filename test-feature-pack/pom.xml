@@ -191,7 +191,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.activemq</groupId>
+			<groupId>org.apache.artemis</groupId>
 			<artifactId>artemis-jakarta-ra</artifactId>
 			<version>${artemis.version}</version>
 		</dependency>
