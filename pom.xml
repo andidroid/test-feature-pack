@@ -17,7 +17,7 @@
 		<version>1.0.15</version>
 	</parent>
 	<artifactId>test-feature-pack-parent</artifactId>
-	<version>0.39.0-SNAPSHOT</version>
+	<version>0.40.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>WildFly Featurepack</name>
 
@@ -93,7 +93,7 @@
 	<properties>
 		<enforcer.skip>true</enforcer.skip>
 		<java.version>21</java.version>
-		<javaee.version>10.0.0</javaee.version>
+		<javaee.version>11.0.0</javaee.version>
 		<microprofile.version>7.1</microprofile.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -111,21 +111,21 @@
 
 		<!-- implementation dependency versions -->
 		<log4j.version>2.20.0</log4j.version>
-		<wildfly.version>39.0.1.Final</wildfly.version>
-		<wildfly-core.version>31.0.3.Final</wildfly-core.version>
-		<wildfly-elytron.version>2.8.2.Final</wildfly-elytron.version>
+		<wildfly.version>40.0.0.Beta1</wildfly.version>
+		<wildfly-core.version>32.0.0.Beta7</wildfly-core.version>
+		<wildfly-elytron.version>2.8.3.Final</wildfly-elytron.version>
 		<postgres.version>42.7.10</postgres.version>
 		<artemis.version>2.44.0</artemis.version>
 		
-		<hibernate.version>6.6.40.Final</hibernate.version>
-		<hibernate.search.version>7.2.5.Final</hibernate.search.version>
+		<hibernate.version>7.3.2.Final</hibernate.version>
+		<hibernate.search.version>8.3.0.Final</hibernate.search.version>
 		<hibernate.validator.version>8.0.3.Final</hibernate.validator.version>
-		<lucene.version>9.11.1</lucene.version>
-		<resteasy.version>6.2.15.Final</resteasy.version>
-		<infinispan.version>16.0.5</infinispan.version>
+		<lucene.version>9.12.3</lucene.version>
+		<resteasy.version>7.0.2.Final</resteasy.version>
+		<infinispan.version>16.0.9</infinispan.version>
 		<kafka.version>3.9.0</kafka.version>
 		<rocksdbjni.version>7.1.2</rocksdbjni.version>
-		<jackson.version>2.20.1</jackson.version>
+		<jackson.version>2.21.2</jackson.version>
 		<jaxb-runtime.version>4.0.5</jaxb-runtime.version>
 
 		<jts.version>1.20.0</jts.version>
@@ -138,11 +138,11 @@
 		<opentelemetry-instrumentation.version>2.14.0</opentelemetry-instrumentation.version>
 		<opentelemetry-jms-client-instrumentation.version>2.3.2</opentelemetry-jms-client-instrumentation.version>
 
-		<galleon.version>7.0.3.Final</galleon.version>
-		<wildfly-galleon-plugin.version>8.1.0.Final</wildfly-galleon-plugin.version>
+		<galleon.version>7.0.5.Final</galleon.version>
+		<wildfly-galleon-plugin.version>8.1.2.Final</wildfly-galleon-plugin.version>
 
 		<wildfly-reactive-feature-pack.version>3.0.0.Final</wildfly-reactive-feature-pack.version>
-		<netty.version>4.1.130.Final</netty.version>
+		<netty.version>4.1.132.Final</netty.version>
 		<netty.tcnative.version>2.0.75.Final</netty.tcnative.version>
 		<netty.jni-util.version>0.0.10.Final</netty.jni-util.version>
 		<bucket4j.version>8.16.1</bucket4j.version>
