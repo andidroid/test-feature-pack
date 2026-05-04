@@ -2,7 +2,7 @@
 <layer-spec xmlns="urn:jboss:galleon:layer-spec:1.0" name="jackson-ext">
     <packages>
         <package name="com.fasterxml.woodstox.woodstox-core"/>
-        <package name="com.fasterxml.woodstox.woodstox-core"/>
+        <package name="com.squareup.protoparser"/>
         <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-csv"/>
         <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-properties"/>
         <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-protobuf"/>

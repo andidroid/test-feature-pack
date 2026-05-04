@@ -272,14 +272,14 @@
 		</dependency>
 
 		<dependency>
-		<groupId>com.fasterxml.jackson.datatype</groupId>
-		<artifactId>jackson-datatype-jakarta-jsonp</artifactId>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jakarta-jsonp</artifactId>
 		</dependency>
 
-<dependency>
-    <groupId>com.fasterxml.jackson.datatype</groupId>
-    <artifactId>jackson-datatype-hibernate6</artifactId>
-</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-hibernate6</artifactId>
+		</dependency>
 
 
 <!-- TODO hibernate 7 with jackson 2.20 <dependency>
