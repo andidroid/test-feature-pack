@@ -20,9 +20,9 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
-<module name="com.fasterxml.jackson.datatype.jackson-datatype-hibernate6" xmlns="urn:jboss:module:1.9">
+<module name="com.fasterxml.jackson.datatype.jackson-datatype-hibernate7" xmlns="urn:jboss:module:1.9">
      <resources>
-        <artifact name="${com.fasterxml.jackson.datatype:jackson-datatype-hibernate6}"/>
+        <artifact name="${com.fasterxml.jackson.datatype:jackson-datatype-hibernate7}"/>
     </resources>
 
     <dependencies>

@@ -267,6 +267,11 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+		</dependency>
+
+		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>
  			<artifactId>jackson-module-jsonSchema-jakarta</artifactId>
 		</dependency>
@@ -278,14 +283,18 @@
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
-			<artifactId>jackson-datatype-hibernate6</artifactId>
+			<artifactId>jackson-datatype-hibernate7</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>com.fasterxml.jackson.jakarta.rs</groupId>
+			<artifactId>jackson-jakarta-rs-xml-provider</artifactId>
+		</dependency>
 
-<!-- TODO hibernate 7 with jackson 2.20 <dependency>
-    <groupId>com.fasterxml.jackson.datatype</groupId>
-    <artifactId>jackson-datatype-hibernate7</artifactId>
-</dependency> -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.jakarta.rs</groupId>
+			<artifactId>jackson-jakarta-rs-yaml-provider</artifactId>
+		</dependency>
 
 	</dependencies>
 

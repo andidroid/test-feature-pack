@@ -60,6 +60,6 @@
 
         <module name="org.jboss.mod_cluster.container.spi" optional="true"/>
         <module name="org.jboss.mod_cluster.load.spi" optional="true"/>
-        <module name="org.jboss.mod_cluster.load.core" optional="true"/>
+        <module name="org.jboss.mod_cluster.core" optional="true"/>
     </dependencies>
 </module>
