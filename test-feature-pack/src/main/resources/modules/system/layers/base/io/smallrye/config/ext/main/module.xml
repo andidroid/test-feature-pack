@@ -57,5 +57,9 @@
 		    <module name="org.wildfly.security.elytron"/>
 		    <module name="org.wildfly.extension.elytron"/>
 		    <module name="org.wildfly.event.logger"/>
+
+        <module name="org.jboss.mod_cluster.container.spi" optional="true"/>
+        <module name="org.jboss.mod_cluster.load.spi" optional="true"/>
+        <module name="org.jboss.mod_cluster.load.core" optional="true"/>
     </dependencies>
 </module>
