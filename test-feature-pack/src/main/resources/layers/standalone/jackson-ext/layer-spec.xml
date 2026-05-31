@@ -9,6 +9,10 @@
         <package name="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"/>
         <package name="com.fasterxml.jackson.datatype.jackson-datatype-hibernate6"/>
         <package name="com.fasterxml.jackson.datatype.jackson-datatype-jsonp"/>
+
+        <package name="com.fasterxml.jackson.jakarta.rs.jackson-jakarta-rs-yaml-provider"/>
+        <package name="com.fasterxml.jackson.jakarta.rs.jackson-jakarta-rs-xml-provider"/>
+
     </packages>
 </layer-spec>
 
