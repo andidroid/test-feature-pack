@@ -226,7 +226,7 @@
 		<dependency>
 		    <groupId>org.jboss</groupId>
 		    <artifactId>jboss-parent</artifactId>
-		    <version>51</version>
+		    <version>53</version>
 		    <type>pom</type>
 		</dependency>
 
@@ -324,7 +324,7 @@
 					<dependency>
 					    <groupId>org.jboss</groupId>
 					    <artifactId>jboss-parent</artifactId>
-					    <version>51</version>
+					    <version>53</version>
 						<type>pom</type>
 					</dependency>
 				</dependencies>
