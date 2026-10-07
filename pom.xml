@@ -124,7 +124,7 @@
 		<resteasy.version>7.0.2.Final</resteasy.version>
 		<infinispan.version>16.0.9</infinispan.version>
 		<kafka.version>4.3.1</kafka.version>
-		<rocksdbjni.version>7.1.2</rocksdbjni.version>
+		<rocksdbjni.version>11.0.4</rocksdbjni.version>
 		<jackson.version>2.21.3</jackson.version>
 		<jaxb-runtime.version>4.0.9</jaxb-runtime.version>
 
