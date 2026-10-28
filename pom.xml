@@ -112,7 +112,7 @@
 		<!-- implementation dependency versions -->
 		<log4j.version>2.23.1</log4j.version>
 		<wildfly.version>42.0.0.Final</wildfly.version>
-		<wildfly-core.version>33.0.1.Final</wildfly-core.version>
+		<wildfly-core.version>34.0.0.Final</wildfly-core.version>
 		<wildfly-elytron.version>2.9.4.Final</wildfly-elytron.version>
 		<postgres.version>42.7.14</postgres.version>
 		<artemis.version>2.57.0</artemis.version>
