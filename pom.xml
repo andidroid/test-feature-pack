@@ -147,7 +147,7 @@
 		<netty.jni-util.version>0.0.12.Final</netty.jni-util.version>
 		<bucket4j.version>8.21.0</bucket4j.version>
 		<jsonpath.version>3.0.0</jsonpath.version>
-		<jsoup.version>1.23.2</jsoup.version>
+		<jsoup.version>1.24.1</jsoup.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
